@@ -71,8 +71,7 @@ class Trainer:
 
             loss_train = self.train_epoch(dl_train, gradient_accumulations, epoch)
 
-            # if epoch % evaluation_interval == 0 and epoch > start_eval:
-            if True:
+            if epoch % evaluation_interval == 0 and epoch > start_eval:
                 losses_train.append(loss_train)
 
                 # Evaluate the model on the validation set
@@ -250,7 +249,7 @@ if __name__ == "__main__":
     # Get dataloader
     dataset_train = ListDataset(
         train_path,
-        augment=False,
+        augment=True,
         multiscale=opt.multiscale_training,
     )
 
