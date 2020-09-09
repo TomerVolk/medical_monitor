@@ -247,8 +247,8 @@ def get_batch_statistics(outputs, targets, iou_threshold,paths=""):
                     continue
                 iou, box_index = bbox_iou(pred_box.unsqueeze(0), target_boxes).max(0)
 
-
-                if iou >= iou_threshold and int(box_index) not in detected_boxes and int(pred_label) == int(target_labels[box_index]):
+                if iou >= iou_threshold and int(box_index) not in detected_boxes and\
+                        int(pred_label) == int(target_labels[box_index]):
                     true_positives[pred_i] = 1
                     detected_boxes += [int(box_index)]
         batch_metrics.append([true_positives, pred_scores, pred_labels])

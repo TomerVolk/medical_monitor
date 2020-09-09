@@ -245,7 +245,6 @@ if __name__ == "__main__":
             print("pth was loaded")
         else:
             model.load_darknet_weights(opt.pretrained_weights)
-
     # Get dataloader
     dataset_train = ListDataset(
         train_path,
