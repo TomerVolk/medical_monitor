@@ -42,7 +42,7 @@ class Trainer:
         self.class_names = class_names
 
     def fit(self, dl_train: DataLoader, dl_valid: DataLoader, num_epochs=100, img_size=416,
-            evaluation_interval=1, gradient_accumulations=2, verbose=True, start_eval=4, file_suffix_name="",
+            evaluation_interval=1, gradient_accumulations=2, verbose=True, start_eval=6, file_suffix_name="",
             initional_epoch=0, initional_max_mAP=0):
         """
         Trains the model for multiple epochs with a given training set,
@@ -298,9 +298,3 @@ if __name__ == "__main__":
         initional_epoch=0,
         initional_max_mAP=0
     )
-
-
-
-
-
-
