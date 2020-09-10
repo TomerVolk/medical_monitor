@@ -18,61 +18,51 @@ from torchvision import transforms
 from torch.autograd import Variable
 import torch.optim as optim
 import pandas as pd
+import cv2
 
 
-def create_video_folder():
-    video_path = "data/custom/archive/Simulated Patient Monitor.mp4"
-    out_folder_path = "data/custom/video_photos"
-    cap = cv2.VideoCapture(video_path)
-    i = 0
-    while cap.isOpened():
-        ret, frame = cap.read()
-        if ret == False:
-            break
-        cv2.imwrite(out_folder_path + '/frame' + str(i) + '.jpg', frame)
-        i += 1
-
-    cap.release()
-    cv2.destroyAllWindows()
-
-
-def test_epoch(model, dataloader: DataLoader, conf_thres, nms_thres, img_size: int):
+def create_tagged_video(model, conf_thres, nms_thres, img_size: int, class_list, video_path: str):
     model.eval()
 
-    losses_list = []
     Tensor = torch.cuda.FloatTensor if torch.cuda.is_available() else torch.FloatTensor
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    colors_list = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (0, 255, 255), (127, 0, 255), (255, 255, 0), (0, 128, 255)]
 
-    labels = []
-    sample_metrics = []  # List of tuples (TP, confs, pred)
-    # for batch_i, (_, imgs, targets) in enumerate(tqdm.tqdm(dataloader, desc=__print)):
-    num_batches = len(dataloader)
+    cap = cv2.VideoCapture(video_path)
+    out_path = video_path.replace(".mp4", " tagged.mp4")
+    out_vid = cv2.VideoWriter(out_path, cv2.VideoWriter_fourcc(*'mp4v'), 24, (640, 360))
+    while cap.isOpened():
+        ret, image = cap.read()
+        if ret == False:
+            break
 
-    with tqdm.tqdm(desc=f'{" evaluation"}', total=num_batches) as pbar:
+        ds_test = SingleImage(image, img_size)
+        dl_test = DataLoader(ds_test)
+        imgs = dl_test.__iter__().__next__()
+        with torch.no_grad():
+            imgs_cuda = Variable(imgs.to(device))
+            outputs = model(imgs_cuda)
+            outputs = non_max_suppression(outputs, conf_thres=conf_thres, nms_thres=nms_thres)
+        if outputs[0] is None:
+            continue
 
-        for batch_i, (_, imgs, _) in enumerate(dataloader):
-            # print(targets)
-            # print("###")
+        output = outputs[0]
+        pred_boxes = output[:, :4]
+        pred_labels = output[:, -1]
+        for pred_idx in range(len(pred_labels)):
+            pred_box = pred_boxes[pred_idx]
+            pred = int(pred_labels[pred_idx].item())
+            label = class_list[pred]
+            x1 = (pred_box[0], pred_box[1])
+            x2 = (pred_box[2], pred_box[3])
+            image = cv2.rectangle(image, x1, x2, thickness=2, color=colors_list[pred])
+            image = cv2.putText(image, label,
+                                (x1[0], x1[1]-5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (36, 255, 12), 2)
 
-            with torch.no_grad():
-                imgs_cuda = Variable(imgs.to(device))
-
-                outputs = model(imgs_cuda)
-                outputs = non_max_suppression(outputs, conf_thres=conf_thres, nms_thres=nms_thres)
-            pbar.update()
-            for sample_i in range(len(outputs)):
-                if outputs[sample_i] is None:
-                    continue
-
-                output = outputs[sample_i]
-                pred_boxes = output[:, :4]
-                pred_scores = output[:, 4]
-                pred_labels = output[:, -1]
-                print(pred_labels)
-                print(pred_scores)
-                print(pred_boxes)
-                exit(98)
+        out_vid.write(image)
+    cap.release()
+    cv2.destroyAllWindows()
 
 
 def tag_video():
@@ -83,7 +73,8 @@ def tag_video():
                         help="path to model definition file")
     parser.add_argument("--pretrained_weights", type=str, default=None,
                         help="if specified starts from checkpoint model")
-    parser.add_argument("--n_cpu", type=int, default=8, help="number of cpu threads to use during batch generation")
+    parser.add_argument("--video_path", type=str, default="data/custom/archive/Simulated Patient Monitor.mp4",
+                        help="The path to the video file")
 
     opt = parser.parse_args()
     print(opt)
@@ -92,7 +83,7 @@ def tag_video():
     print(device)
 
     # Get data configuration
-    video_path = "data/custom/video_photos.txt"
+    video_path = opt.video_path
     class_names = load_classes("data/custom/classes.names")
     print(class_names)
 
@@ -109,39 +100,14 @@ def tag_video():
         else:
             model.load_darknet_weights(opt.pretrained_weights)
 
-    ds_test = ListDataset(
-        video_path,
-        img_size=416,
-        augment=False,
-        multiscale=False,
-    )
-
-    dataloader_test = torch.utils.data.DataLoader(
-        ds_test,
-        batch_size=1,
-        shuffle=False,
-        num_workers=opt.n_cpu,
-        collate_fn=ds_test.collate_fn
-    )
-    test_epoch(
+    create_tagged_video(
         model=model,
-        dataloader=dataloader_test,
         conf_thres=0.5,
         nms_thres=0.5,
         img_size=416,
+        class_list=class_names,
+        video_path=video_path
     )
-
-
-def create_vid_names():
-    out_path = "data/custom/video_photos"
-    out_str = ""
-    in_path = "data/custom/labels/frame0.txt"
-    with open(in_path, "r") as f:
-        out_str = f.read()
-    for i in range(3701):
-        cur_out_path = out_path + "/frame" + str(i) + ".txt"
-        with open(cur_out_path, "w") as f:
-            f.write(out_str)
 
 
 if __name__ == "__main__":

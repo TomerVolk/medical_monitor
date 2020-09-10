@@ -148,3 +148,21 @@ class ListDataset(Dataset):
 
     def __len__(self):
         return len(self.img_files)
+
+
+class SingleImage(Dataset):
+    def __init__(self, image, img_size=416):
+        self.img_size = img_size
+        self.Image = image
+
+    def __getitem__(self, index):
+        img = transforms.ToTensor()(self.Image)
+        # Pad to square resolution
+        img, _ = pad_to_square(img, 0)
+        # Resize
+        img = resize(img, self.img_size)
+
+        return img
+
+    def __len__(self):
+        return 1
