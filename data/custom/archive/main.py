@@ -1,6 +1,6 @@
 import cv2
 import json
-from image_obj import ImageObj
+from data.custom.archive.image_obj import ImageObj
 import numpy as np
 from os import listdir
 
@@ -20,62 +20,84 @@ def create_db(path, inter):
     cv2.destroyAllWindows()
 
 
-def get_max_bbox(bbox_lst: list):
-    arr = np.array(bbox_lst)
-    bbox_1 = arr.min(axis=0)[0:2]
-    bbox_2 = arr.max(axis=0)[2:]
-    bbox = np.concatenate((bbox_1, bbox_2)).tolist()
-    return bbox
+def reformat_bbox(bbox_lst: list):
+    bbox_lst = bbox_lst[0]
+    ans = [0] * 4
+    ans[0] = (bbox_lst[0] + bbox_lst[2]) / 2
+    ans[1] = (bbox_lst[1] + bbox_lst[3]) / 2
+    ans[2] = (bbox_lst[2] - bbox_lst[0])
+    ans[3] = bbox_lst[3] - bbox_lst[1]
+    ans[0] = ans[0] / 640
+    ans[1] = ans[1] / 360
+    ans[2] = ans[2] / 640
+    ans[3] = ans[3] / 360
+    return ans
 
 
 def create_dict(img_obj_lst: list):
     ans_dict = {}
 
     hr_boxes = [x.hr_box for x in img_obj_lst]
-    bbox_hr = get_max_bbox(hr_boxes)
+    bbox_hr = reformat_bbox(hr_boxes)
     ans_dict["Heart rate"] = bbox_hr
 
     pulse_boxes = [x.pulse_box for x in img_obj_lst]
-    bbox_pulse = get_max_bbox(pulse_boxes)
+    bbox_pulse = reformat_bbox(pulse_boxes)
     ans_dict["Pulse"] = bbox_pulse
 
     abp_boxes = [x.abp_box for x in img_obj_lst]
-    bbox_abp = get_max_bbox(abp_boxes)
+    bbox_abp = reformat_bbox(abp_boxes)
     ans_dict["ABP"] = bbox_abp
 
     spo2_boxes = [x.spo2_box for x in img_obj_lst]
-    bbox_spo2 = get_max_bbox(spo2_boxes)
+    bbox_spo2 = reformat_bbox(spo2_boxes)
     ans_dict["SpO2"] = bbox_spo2
 
     pap_boxes = [x.pap_box for x in img_obj_lst]
-    bbox_pap = get_max_bbox(pap_boxes)
+    bbox_pap = reformat_bbox(pap_boxes)
     ans_dict["PAP"] = bbox_pap
 
     et_boxes = [x.et_co2_box for x in img_obj_lst]
-    bbox_pap = get_max_bbox(et_boxes)
+    bbox_pap = reformat_bbox(et_boxes)
     ans_dict["etCO2"] = bbox_pap
 
     aw_boxes = [x.aw_rr_box for x in img_obj_lst]
-    bbox_aw = get_max_bbox(aw_boxes)
+    bbox_aw = reformat_bbox(aw_boxes)
     ans_dict["awRR"] = bbox_aw
 
     return ans_dict
 
 
-def create_out_str(classes, images):
-    out_dict = {"labels": classes}
-    images_loc = "data/img"
-    img_list = []
+def get_labels_dict():
+    ans_dict = {}
+    labels_path = "C:\\Users\\tomer\\Documents\\medical_monitor\\data\\custom\\classes.names"
+    with open(labels_path) as f:
+        labels_list = f.readlines()
+    labels_list = [x.strip() for x in labels_list]
+    for k, v in enumerate(labels_list):
+        ans_dict[v] = k
+    return ans_dict
+
+
+def create_out_str(images):
+    images_loc = "C:\\Users\\tomer\\Documents\\medical_monitor\\data\\custom\\images"
     img_dict = create_dict(images)
+    labels_dict = get_labels_dict()
+    out_str = ""
+    for label in labels_dict.keys():
+        bbox = img_dict[label]
+        bbox = [str(x) for x in bbox]
+        out_str += str(labels_dict[label]) + " " + " ".join(bbox) + "\n"
+    out_str = out_str.strip()
     for file in listdir(images_loc):
-        cur_dict = {"image_name": file, "labels": img_dict}
-        img_list.append(cur_dict)
-    out_dict["images"] = img_list
-    return out_dict
+        full_path = images_loc + "\\" + file
+        full_path = full_path.replace("images", "labels").replace(".jpg", ".txt")
+        with open(full_path, "w") as f:
+            f.write(out_str)
 
 
 if __name__ == '__main__':
-    file_path = "data/images labeled hasti.json"
+    file_path = "images labeled hasti.json"
     with open(file_path) as f:
         data = json.load(f)
     classes = data["label_classes"]
@@ -83,8 +105,5 @@ if __name__ == '__main__':
     imgs = data["images"]
     img_obj = [ImageObj(x) for x in imgs]
     label_dict = create_dict(img_obj)
-    out_dict = create_out_str(classes, img_obj)
-    # out_json = json.dumps(out_dict)
-    with open("data/images labeled.json", "w") as f:
-        json.dump(out_dict, f)
+    create_out_str(img_obj)
 

@@ -96,7 +96,7 @@ def weights_init_normal(m):
 
 def rescale_boxes(boxes, current_dim, original_shape):
     """ Rescales bounding boxes to the original shape """
-    if type(boxes)== type(torch.tensor([])):
+    if type(boxes) == type(torch.tensor([])):
         orig_h, orig_w = original_shape
         # The amount of padding that was added
         pad_x = max(orig_h - orig_w, 0) * (current_dim / max(original_shape))
@@ -212,6 +212,7 @@ def compute_ap(recall, precision):
     ap = np.sum((mrec[i + 1] - mrec[i]) * mpre[i + 1])
     return ap
 
+
 def get_batch_statistics(outputs, targets, iou_threshold,paths=""):
     """ Compute true positives, predicted scores and predicted labels per sample """
 
@@ -255,7 +256,6 @@ def get_batch_statistics(outputs, targets, iou_threshold,paths=""):
     return batch_metrics
 
 
-
 def bbox_wh_iou(wh1, wh2):
     wh2 = wh2.t()
     w1, h1 = wh1[0], wh1[1]
@@ -263,6 +263,7 @@ def bbox_wh_iou(wh1, wh2):
     inter_area = torch.min(w1, w2) * torch.min(h1, h2)
     union_area = (w1 * h1 + 1e-16) + w2 * h2 - inter_area
     return inter_area / union_area
+
 
 def bbox_relationship_parameters_calculator(box1, box2, x1y1x2y2=True):
     if not x1y1x2y2:

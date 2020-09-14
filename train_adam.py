@@ -78,7 +78,7 @@ class Trainer:
                 epochValidRes = self.test_epoch(
                     model=self.model,
                     dataloader=dl_valid,
-                    iou_thres=0.5,
+                    iou_thres=0.9,
                     conf_thres=0.5,
                     nms_thres=0.5,
                     img_size=img_size,
