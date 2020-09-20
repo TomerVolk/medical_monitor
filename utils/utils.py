@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import os
 
+
 def get_id_from_name(name):
     return int(name[2:4])
 
@@ -298,6 +299,7 @@ def bbox_iou(box1, box2, x1y1x2y2=True):
     iou = inter_area / (b1_area + b2_area - inter_area + 1e-16)
     return iou
 
+
 def bbox_overlap(box1, box2, x1y1x2y2=True):
     """The overlap coefficient or Szymkiewicz–Simpson coefficien"""
     inter_area, b1_area, b2_area = bbox_relationship_parameters_calculator(box1, box2, x1y1x2y2=True)
@@ -305,7 +307,7 @@ def bbox_overlap(box1, box2, x1y1x2y2=True):
     return overlap
 
 
-def box_quarters_calculator(bbox,x1y1x2y2=True):
+def box_quarters_calculator(bbox, x1y1x2y2=True):
     if not x1y1x2y2:
         # Transform from center and width to exact coordinates
         b1_x1, b1_x2 = bbox[:, 0] - bbox[:, 2] / 2, bbox[:, 0] + bbox[:, 2] / 2
@@ -334,6 +336,7 @@ def box_quarters_calculator(bbox,x1y1x2y2=True):
     q_r = torch.stack(q_r,dim=1)
 
     return q_l, q_r
+
 
 def non_max_suppression(prediction, conf_thres=0.5, nms_thres=0.4):
     """
@@ -381,14 +384,12 @@ def non_max_suppression(prediction, conf_thres=0.5, nms_thres=0.4):
     return output
 
 
-
 def non_max_suppression_post_process(prediction,  nms_thres=0.4,conf_thres=0.01):
     output = []
     for image_i, image_pred in enumerate(prediction):
         # Filter out confidence scores below threshold
         if type(image_pred) == type(torch.tensor([])):
             image_pred = image_pred[image_pred[:, 4] >= conf_thres]
-
 
         if image_pred is None:
             return output
@@ -435,7 +436,6 @@ def non_max_suppression_post_process(prediction,  nms_thres=0.4,conf_thres=0.01)
         if keep_boxes:
             output.append(torch.stack(keep_boxes))
     return output
-
 
 
 def build_targets(pred_boxes, pred_cls, target, anchors, ignore_thres):

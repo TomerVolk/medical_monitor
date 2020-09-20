@@ -248,7 +248,7 @@ if __name__ == "__main__":
     # Get dataloader
     dataset_train = ListDataset(
         train_path,
-        augment=True,
+        augment=False,
         multiscale=opt.multiscale_training,
     )
 

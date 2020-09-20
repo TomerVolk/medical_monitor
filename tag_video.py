@@ -3,22 +3,81 @@ from __future__ import division
 from models import *
 from utils.utils import *
 from utils.datasets import *
-import cv2
-from utils.parse_config import *
-from terminaltables import AsciiTable
-import os
-import sys
-import time
-import datetime
 import argparse
 import torch
 from torch.utils.data import DataLoader
-from torchvision import datasets
-from torchvision import transforms
 from torch.autograd import Variable
-import torch.optim as optim
-import pandas as pd
 import cv2
+import pytesseract
+
+
+def preprocess_image(img, label):
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+    if label != "ABP" and label != "PAP":
+        kernel = np.ones((3, 3), np.uint8)
+    else:
+        kernel = np.ones((2, 1))
+    img = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
+    # img = cv2.Canny(img, 100, 200)
+    return img
+
+
+def find_numbers(image, output, class_list, is_ground=False, buffer=(2, 5)):
+    colors_list = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (0, 255, 255), (127, 0, 255), (255, 255, 0), (0, 128, 255)]
+    pred_boxes = output[:, :4]
+    if not is_ground:
+        pred_boxes = rescale_boxes(pred_boxes, 416, (360, 640))
+    pred_labels = output[:, -1]
+    drawn_img = image.copy()
+
+    for pred_idx in range(len(pred_labels)):
+        pred = int(pred_labels[pred_idx].item())
+        label = class_list[pred]
+
+        pred_box = pred_boxes[pred_idx]
+        cur_rect = image.copy()
+        crop_rect = (int(pred_box[1]) - buffer[0], int(pred_box[3]) + buffer[0],
+                     int(pred_box[0]) - buffer[1], int(pred_box[2]) + buffer[1])
+        # Y is first in crop_rect because this is how cv2 crop works
+        cur_rect = cur_rect[crop_rect[0]: crop_rect[1], crop_rect[2]: crop_rect[3]]
+        cur_rect = preprocess_image(cur_rect, label)
+
+        # cur_rect = cv2.cvtColor(cur_rect, cv2.COLOR_BGR2GRAY)
+        h, w = cur_rect.shape
+        boxes = pytesseract.image_to_boxes(cur_rect)
+        print(label)
+        print(boxes)
+        print(" ************** ")
+        print()
+        cv2.imshow("image", cur_rect)
+        cv2.waitKey(0)
+        for b in boxes.splitlines():
+            b = b.split(' ')
+            text = b[0]
+            try:
+                b[0] = float(b[0])
+            except ValueError:
+                continue
+            cur_x1 = (int(b[1]), h - int(b[2]))
+            full_x1 = (cur_x1[0] + crop_rect[2], cur_x1[1] + crop_rect[0])
+            cur_x2 = (int(b[3]), h - int(b[4]))
+            full_x2 = (cur_x2[0] + crop_rect[2], cur_x2[1] + crop_rect[0])
+            drawn_img = cv2.rectangle(drawn_img, full_x1, full_x2, thickness=2, color=colors_list[pred])
+            drawn_img = cv2.putText(drawn_img, text,
+                                    (full_x1[0], full_x2[1]-5), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (36, 255, 12), 2)
+        # cv2.imshow("rect", cur_rect)
+        # cv2.waitKey(0)
+        # x1 = (pred_box[0], pred_box[1])
+        # x2 = (pred_box[2], pred_box[3])
+        x1 = (crop_rect[2], crop_rect[0])
+        x2 = (crop_rect[3], crop_rect[1])
+        drawn_img = cv2.rectangle(drawn_img, x1, x2, thickness=2, color=colors_list[pred])
+        drawn_img = cv2.putText(drawn_img, label,
+                                (x1[0] - 15, x1[1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (36, 255, 12), 2)
+    cv2.imshow("image", drawn_img)
+    cv2.waitKey(0)
+    return drawn_img
 
 
 def create_tagged_video(model, conf_thres, nms_thres, img_size: int, class_list, video_path: str):
@@ -27,7 +86,6 @@ def create_tagged_video(model, conf_thres, nms_thres, img_size: int, class_list,
     Tensor = torch.cuda.FloatTensor if torch.cuda.is_available() else torch.FloatTensor
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    colors_list = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (0, 255, 255), (127, 0, 255), (255, 255, 0), (0, 128, 255)]
 
     cap = cv2.VideoCapture(video_path)
     out_path = video_path.replace(".mp4", " tagged.mp4")
@@ -52,18 +110,7 @@ def create_tagged_video(model, conf_thres, nms_thres, img_size: int, class_list,
             continue
 
         output = outputs[0]
-        pred_boxes = output[:, :4]
-        pred_boxes = rescale_boxes(pred_boxes, 416, (360, 640))
-        pred_labels = output[:, -1]
-        for pred_idx in range(len(pred_labels)):
-            pred_box = pred_boxes[pred_idx]
-            pred = int(pred_labels[pred_idx].item())
-            label = class_list[pred]
-            x1 = (pred_box[0], pred_box[1])
-            x2 = (pred_box[2], pred_box[3])
-            image = cv2.rectangle(image, x1, x2, thickness=2, color=colors_list[pred])
-            image = cv2.putText(image, label,
-                                (x1[0], x1[1]-5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (36, 255, 12), 2)
+        image = find_numbers(image, output, class_list)
 
         out_vid.write(image)
     cap.release()
@@ -111,31 +158,37 @@ def tag_video():
         video_path=video_path
     )
 
-"""
-def draw_image_labeled():
-    img_path = "data/custom/images/frame0.jpg"
-    label_path = "data/custom/labels/frame0.txt"
-    label_list_path = "data/custom/classes.names"
-    colors_list = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (0, 255, 255), (127, 0, 255), (255, 255, 0), (0, 128, 255)]
-    with open(label_list_path) as f:
-        label_list = f.readlines()
-    label_list = [x.strip() for x in label_list]
-    with open(label_path) as f:
-        cur_labels = f.readlines()
-    cur_labels = [x.strip().split(" ") for x in cur_labels]
-    img = cv2.imread(img_path)
-    for bbox in cur_labels:
-        label = label_list[int(bbox[0])]
-        x1 = int((float(bbox[1]) - float(bbox[3])/2) * 640)
-        x2 = int((float(bbox[1]) + float(bbox[3])/2) * 640)
-        y1 = int((float(bbox[2]) - float(bbox[4])/2) * 360)
-        y2 = int((float(bbox[2]) + float(bbox[4])/2) * 360)
-        img = cv2.rectangle(img, (x1, y1), (x2, y2), thickness=2, color=colors_list[int(bbox[0])])
-        img = cv2.putText(img, label, (x1, y1 - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (36, 255, 12), 2)
-    cv2.imshow("image", img)
-    cv2.waitKey(0)
-    print(cur_labels)
-"""
 
 if __name__ == "__main__":
-    tag_video()
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR/tesseract.exe'
+    image = cv2.imread("data\\custom\\images\\frame1008.jpg")
+
+    # image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    # cv2.imshow("image", image)
+    # cv2.waitKey(0)
+    # exit(45)
+
+    class_names = load_classes("data/custom/classes.names")
+    print(class_names)
+    labels_path = "data\\custom\\labels\\frame70.txt"
+    h, w, _ = image.shape
+    output = None
+    with open(labels_path, "r") as file:
+        for line in file.readlines():
+            output_arr = line.split(" ")
+            output_arr = [float(x) for x in output_arr]
+            output_arr = output_arr[1:] + [output_arr[0]]
+            output_arr[0] *= w
+            output_arr[1] *= h
+            output_arr[2] *= w
+            output_arr[3] *= h
+            output_arr = [output_arr[0] - output_arr[2]/2, output_arr[1] - output_arr[3]/2,
+                          output_arr[0] + output_arr[2]/2, output_arr[1] + output_arr[3]/2, output_arr[-1]]
+            output_arr = torch.Tensor(output_arr).unsqueeze(0)
+            if output is None:
+                output = output_arr
+            else:
+                output = torch.cat([output, output_arr])
+    print(output)
+    find_numbers(image, output, class_names, True)
+    # tag_video()
