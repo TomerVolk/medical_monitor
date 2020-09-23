@@ -1,5 +1,4 @@
 import json
-from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 import cv2
 
