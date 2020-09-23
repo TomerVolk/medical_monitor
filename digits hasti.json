@@ -1,0 +1,951 @@
+{"project_name": "Digits DS", "create_date": "2020-09-22T07:46:17Z", "export_format_version": "1.1", "export_date": "2020-09-22T08:19:50Z", "label_classes": [{
+"class_id": "2d0b79df-e401-442c-b390-5fb10ad1b664",
+"parent_class_id": null,
+"class_name": "7",
+"class_type": "object",
+"color": "#2f5f814d",
+"norder": 17.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "35593107-c078-4d5b-a281-fd27b9d89243",
+"parent_class_id": null,
+"class_name": "6",
+"class_type": "object",
+"color": "#b7f5d54d",
+"norder": 16.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "3e8df185-47ff-4555-9584-c6e527b0d18f",
+"parent_class_id": null,
+"class_name": "/",
+"class_type": "object",
+"color": "#832f114d",
+"norder": 22.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "4b95f767-47a1-4e4c-994f-3f2e431f7311",
+"parent_class_id": null,
+"class_name": "0",
+"class_type": "object",
+"color": "#1f78b44d",
+"norder": 10.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "603da22f-a128-4fb3-8e09-aa1526f40eca",
+"parent_class_id": null,
+"class_name": "1",
+"class_type": "object",
+"color": "#e31a1c4d",
+"norder": 11.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "63e2444b-63a9-4fea-9174-ac2cc47abca5",
+"parent_class_id": null,
+"class_name": "-",
+"class_type": "object",
+"color": "#7c058b4d",
+"norder": 23.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "77e16062-ea88-415b-a367-e12b46b57262",
+"parent_class_id": null,
+"class_name": "8",
+"class_type": "object",
+"color": "#6f3d3c4d",
+"norder": 18.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "7fda7577-dfb3-4452-80db-ce86411478a6",
+"parent_class_id": null,
+"class_name": "9",
+"class_type": "object",
+"color": "#de15624d",
+"norder": 19.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "9cda7ae5-6e09-40d4-a69c-3a958143f0b5",
+"parent_class_id": null,
+"class_name": ")",
+"class_type": "object",
+"color": "#4876aa4d",
+"norder": 21.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "bd71c38e-9cd8-4fd6-879e-aca688af77a5",
+"parent_class_id": null,
+"class_name": "4",
+"class_type": "object",
+"color": "#dc28de4d",
+"norder": 15.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "d483baeb-c75d-4c87-bede-81cc7ccbdfd6",
+"parent_class_id": null,
+"class_name": "2",
+"class_type": "object",
+"color": "#6a3d9a4d",
+"norder": 12.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "d9b3d6fd-ef2f-44f2-b51a-9abbf0eb43c0",
+"parent_class_id": null,
+"class_name": "5",
+"class_type": "object",
+"color": "#b159284d",
+"norder": 14.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "dba96827-7e7d-4aca-ab05-980d0fc58901",
+"parent_class_id": null,
+"class_name": "3",
+"class_type": "object",
+"color": "#ffff994d",
+"norder": 13.0,
+"icon_url": null,
+"attributes": []
+}, {
+"class_id": "dee8c3a1-c6e1-43f8-bd24-0fbfb7ed7fd4",
+"parent_class_id": null,
+"class_name": "(",
+"class_type": "object",
+"color": "#5428934d",
+"norder": 20.0,
+"icon_url": null,
+"attributes": []
+}], "images": [{
+"image_id": "32c8944e-61a0-40db-a595-4351841b35bc",
+"width": 640,
+"height": 360,
+"image_name": "frame1148.jpg",
+"dataset_name": "Default",
+"image_status": "DONE",
+"labels": [
+{
+"id": "312f047c-45ba-43d1-a903-dec8a3ea4454",
+"class_name": "4",
+"bbox": [
+471,
+220,
+489,
+245
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "38e9687d-6742-4e6e-afd7-3d4785c4a11d",
+"width": 640,
+"height": 360,
+"image_name": "frame1246.jpg",
+"dataset_name": "Default",
+"image_status": "DONE",
+"labels": [
+{
+"id": "28281423-cdf1-41fc-8bad-42203e05e292",
+"class_name": "4",
+"bbox": [
+471,
+220,
+489,
+245
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "3d2d600a-76ff-4bbd-891b-5013db3f7ca7",
+"width": 640,
+"height": 360,
+"image_name": "frame1974.jpg",
+"dataset_name": "Default",
+"image_status": "IN PROGRESS",
+"labels": [
+{
+"id": "509f41f6-78e8-455c-9f41-f899c3c615e1",
+"class_name": "7",
+"bbox": [
+513,
+122,
+524,
+139
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+},
+{
+"id": "a75a6c00-a915-41e3-afa0-7a9afce20772",
+"class_name": "6",
+"bbox": [
+472,
+220,
+488,
+245
+],
+"polygon": null,
+"mask": null,
+"z_index": 2,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "6ed3e33c-e64e-4fd7-87ef-c9d8079083b0",
+"width": 640,
+"height": 360,
+"image_name": "frame1036.jpg",
+"dataset_name": "Default",
+"image_status": "DONE",
+"labels": [
+{
+"id": "029c0c03-28de-4b5b-a990-5353adf9cb4a",
+"class_name": "5",
+"bbox": [
+472,
+220,
+489,
+246
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "71497a9e-5c00-4b83-8899-e68ec51da34b",
+"width": 640,
+"height": 360,
+"image_name": "frame0.jpg",
+"dataset_name": "Default",
+"image_status": "DONE",
+"labels": [
+{
+"id": "00a1046b-13a3-4684-9d72-282217041461",
+"class_name": "/",
+"bbox": [
+494,
+123,
+500,
+138
+],
+"polygon": null,
+"mask": null,
+"z_index": 10,
+"attributes": {}
+},
+{
+"id": "0f655a3a-d52f-4211-934a-e58e14902e38",
+"class_name": "9",
+"bbox": [
+456,
+80,
+476,
+112
+],
+"polygon": null,
+"mask": null,
+"z_index": 5,
+"attributes": {}
+},
+{
+"id": "13aaf52b-e53e-4d70-ba38-585cf92f4e23",
+"class_name": "0",
+"bbox": [
+483,
+123,
+494,
+138
+],
+"polygon": null,
+"mask": null,
+"z_index": 9,
+"attributes": {}
+},
+{
+"id": "152ea07c-f95f-463c-89d7-b892b952e40e",
+"class_name": ")",
+"bbox": [
+496,
+189,
+501,
+206
+],
+"polygon": null,
+"mask": null,
+"z_index": 25,
+"attributes": {}
+},
+{
+"id": "2194fd5f-fe93-4453-8144-a24860edd91a",
+"class_name": "-",
+"bbox": [
+464,
+234,
+474,
+238
+],
+"polygon": null,
+"mask": null,
+"z_index": 26,
+"attributes": {}
+},
+{
+"id": "257f189d-64d2-4de9-a461-bd6cfcb28f96",
+"class_name": "/",
+"bbox": [
+494,
+169,
+500,
+185
+],
+"polygon": null,
+"mask": null,
+"z_index": 19,
+"attributes": {}
+},
+{
+"id": "26c2fc58-ce59-473d-b14a-10717aa253fd",
+"class_name": "9",
+"bbox": [
+475,
+143,
+485,
+157
+],
+"polygon": null,
+"mask": null,
+"z_index": 14,
+"attributes": {}
+},
+{
+"id": "28f22ca5-939e-436a-bca7-4e313f13d20b",
+"class_name": ")",
+"bbox": [
+496,
+143,
+502,
+159
+],
+"polygon": null,
+"mask": null,
+"z_index": 16,
+"attributes": {}
+},
+{
+"id": "2b94b82d-49c0-4501-944c-44675bd59fde",
+"class_name": "8",
+"bbox": [
+456,
+33,
+476,
+65
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+},
+{
+"id": "2da97b4a-8798-48de-9784-f5ddd93168e6",
+"class_name": "-",
+"bbox": [
+566,
+238,
+578,
+244
+],
+"polygon": null,
+"mask": null,
+"z_index": 27,
+"attributes": {}
+},
+{
+"id": "2f0d130e-b9a4-458a-8301-a714a0eea8a7",
+"class_name": "0",
+"bbox": [
+514,
+123,
+524,
+139
+],
+"polygon": null,
+"mask": null,
+"z_index": 12,
+"attributes": {}
+},
+{
+"id": "327a6bee-393e-423f-9669-846769c63a08",
+"class_name": "1",
+"bbox": [
+503,
+170,
+510,
+186
+],
+"polygon": null,
+"mask": null,
+"z_index": 20,
+"attributes": {}
+},
+{
+"id": "4015febc-498d-45a6-baf2-35a1762d28e8",
+"class_name": "9",
+"bbox": [
+479,
+80,
+500,
+112
+],
+"polygon": null,
+"mask": null,
+"z_index": 6,
+"attributes": {}
+},
+{
+"id": "5c52dc7a-2fe9-490c-9150-6cc420967647",
+"class_name": "6",
+"bbox": [
+483,
+169,
+493,
+186
+],
+"polygon": null,
+"mask": null,
+"z_index": 18,
+"attributes": {}
+},
+{
+"id": "5d190c02-6ddc-43ba-9207-195ab06d8923",
+"class_name": "2",
+"bbox": [
+472,
+123,
+482,
+139
+],
+"polygon": null,
+"mask": null,
+"z_index": 8,
+"attributes": {}
+},
+{
+"id": "6258bd1f-095c-4e30-abdb-cd001be8eb70",
+"class_name": "2",
+"bbox": [
+471,
+168,
+482,
+185
+],
+"polygon": null,
+"mask": null,
+"z_index": 17,
+"attributes": {}
+},
+{
+"id": "74d4b11a-fa31-41f4-b262-86eaf7bf5d94",
+"class_name": "8",
+"bbox": [
+502,
+123,
+512,
+139
+],
+"polygon": null,
+"mask": null,
+"z_index": 11,
+"attributes": {}
+},
+{
+"id": "77d8179d-421a-42da-8e74-d65ef3b7ea41",
+"class_name": "1",
+"bbox": [
+476,
+189,
+483,
+204
+],
+"polygon": null,
+"mask": null,
+"z_index": 23,
+"attributes": {}
+},
+{
+"id": "7b5f7387-9173-4d11-8d20-9affd16e874d",
+"class_name": "0",
+"bbox": [
+589,
+34,
+610,
+65
+],
+"polygon": null,
+"mask": null,
+"z_index": 4,
+"attributes": {}
+},
+{
+"id": "95f604fa-edcb-4d18-bb4f-8a63a54d0b01",
+"class_name": "8",
+"bbox": [
+565,
+34,
+586,
+65
+],
+"polygon": null,
+"mask": null,
+"z_index": 3,
+"attributes": {}
+},
+{
+"id": "a21de2c5-4f91-4c0c-88f7-6e7469a8dc17",
+"class_name": "1",
+"bbox": [
+461,
+123,
+468,
+138
+],
+"polygon": null,
+"mask": null,
+"z_index": 7,
+"attributes": {}
+},
+{
+"id": "a82e8d10-cb43-4744-a535-1f3b00ea0fe8",
+"class_name": "(",
+"bbox": [
+469,
+142,
+474,
+159
+],
+"polygon": null,
+"mask": null,
+"z_index": 13,
+"attributes": {}
+},
+{
+"id": "b3011d54-f1c6-411a-b13f-633eb51d6fef",
+"class_name": "0",
+"bbox": [
+514,
+170,
+524,
+186
+],
+"polygon": null,
+"mask": null,
+"z_index": 21,
+"attributes": {}
+},
+{
+"id": "b48e4cae-0a38-48bf-9e39-4157b8c0c36c",
+"class_name": "0",
+"bbox": [
+479,
+34,
+500,
+65
+],
+"polygon": null,
+"mask": null,
+"z_index": 2,
+"attributes": {}
+},
+{
+"id": "cf408f65-56dc-4314-ace5-d163dd21a334",
+"class_name": "6",
+"bbox": [
+485,
+189,
+495,
+204
+],
+"polygon": null,
+"mask": null,
+"z_index": 24,
+"attributes": {}
+},
+{
+"id": "d49dee54-67bb-4b8d-8e8e-a350521ae4e5",
+"class_name": "(",
+"bbox": [
+470,
+190,
+475,
+206
+],
+"polygon": null,
+"mask": null,
+"z_index": 22,
+"attributes": {}
+},
+{
+"id": "d554a6eb-fab8-4912-9501-4c92c622047d",
+"class_name": "3",
+"bbox": [
+486,
+142,
+495,
+156
+],
+"polygon": null,
+"mask": null,
+"z_index": 15,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "77fa14ff-501a-4307-a3db-f8c740ca2274",
+"width": 640,
+"height": 360,
+"image_name": "frame1008.jpg",
+"dataset_name": "Default",
+"image_status": "DONE",
+"labels": [
+{
+"id": "042b5e7e-380e-44b4-aa47-29872971d5e7",
+"class_name": "5",
+"bbox": [
+470,
+220,
+489,
+245
+],
+"polygon": null,
+"mask": null,
+"z_index": 2,
+"attributes": {}
+},
+{
+"id": "219288c2-fb96-4f25-ad7c-7ec6d794b458",
+"class_name": "5",
+"bbox": [
+486,
+143,
+496,
+157
+],
+"polygon": null,
+"mask": null,
+"z_index": 4,
+"attributes": {}
+},
+{
+"id": "2408ca75-c902-449e-a797-dc65033a434f",
+"class_name": "1",
+"bbox": [
+481,
+33,
+496,
+65
+],
+"polygon": null,
+"mask": null,
+"z_index": 7,
+"attributes": {}
+},
+{
+"id": "75a28de5-a342-4ebe-ada1-ac55c5762e5f",
+"class_name": "3",
+"bbox": [
+453,
+220,
+469,
+245
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+},
+{
+"id": "90dcd800-7867-4a8e-ace0-d558fec520c7",
+"class_name": "/",
+"bbox": [
+485,
+188,
+495,
+203
+],
+"polygon": null,
+"mask": null,
+"z_index": 3,
+"attributes": {}
+},
+{
+"id": "a4ec131b-ee98-4321-8639-782d57471c42",
+"class_name": "1",
+"bbox": [
+590,
+33,
+605,
+65
+],
+"polygon": null,
+"mask": null,
+"z_index": 8,
+"attributes": {}
+},
+{
+"id": "bd53b68a-aa9a-4f6f-8312-40727337bbe3",
+"class_name": "3",
+"bbox": [
+483,
+122,
+494,
+139
+],
+"polygon": null,
+"mask": null,
+"z_index": 5,
+"attributes": {}
+},
+{
+"id": "e4da154f-708d-4c0f-b3c4-00928ae09b28",
+"class_name": "8",
+"bbox": [
+502,
+122,
+512,
+139
+],
+"polygon": null,
+"mask": null,
+"z_index": 6,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "7a8b2a06-e915-4313-a94e-4b7a104856a7",
+"width": 640,
+"height": 360,
+"image_name": "frame3164.jpg",
+"dataset_name": "Default",
+"image_status": "DONE",
+"labels": [
+{
+"id": "4dfce021-b5fd-4449-8fbb-8f512bf1f35b",
+"class_name": "4",
+"bbox": [
+483,
+169,
+494,
+185
+],
+"polygon": null,
+"mask": null,
+"z_index": 4,
+"attributes": {}
+},
+{
+"id": "6cd943ca-ca46-438f-87ca-4991af4fe8af",
+"class_name": "4",
+"bbox": [
+486,
+189,
+496,
+204
+],
+"polygon": null,
+"mask": null,
+"z_index": 5,
+"attributes": {}
+},
+{
+"id": "a8bd350f-a119-41c6-9058-bf3c951f675c",
+"class_name": "7",
+"bbox": [
+513,
+122,
+524,
+138
+],
+"polygon": null,
+"mask": null,
+"z_index": 3,
+"attributes": {}
+},
+{
+"id": "aa98b73c-23cd-4bbb-a39c-218d620e1150",
+"class_name": "7",
+"bbox": [
+456,
+34,
+476,
+64
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+},
+{
+"id": "be9d53eb-ecb5-4e68-9982-f77ec95d2495",
+"class_name": "7",
+"bbox": [
+479,
+81,
+500,
+111
+],
+"polygon": null,
+"mask": null,
+"z_index": 2,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "cd25f67d-ef15-45d2-aa5b-86110430eddb",
+"width": 640,
+"height": 360,
+"image_name": "frame350.jpg",
+"dataset_name": "Default",
+"image_status": "IN PROGRESS",
+"labels": [
+{
+"id": "efce561f-e197-4166-86a8-e78d4b12446c",
+"class_name": "2",
+"bbox": [
+472,
+219,
+488,
+245
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "d2e152dd-27f3-4b03-9b11-3ad74e5082e3",
+"width": 640,
+"height": 360,
+"image_name": "frame308.jpg",
+"dataset_name": "Default",
+"image_status": "IN PROGRESS",
+"labels": [
+{
+"id": "6c8d82e6-5d34-4f1a-8cdd-f87e50f68d8f",
+"class_name": "2",
+"bbox": [
+472,
+219,
+488,
+245
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "d72e50fe-e746-44f5-8181-6d029a4f857d",
+"width": 640,
+"height": 360,
+"image_name": "frame2254.jpg",
+"dataset_name": "Default",
+"image_status": "DONE",
+"labels": [
+{
+"id": "2b40f7a6-381b-4f65-ac4c-8eb552c4833d",
+"class_name": "9",
+"bbox": [
+476,
+143,
+485,
+157
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+},
+{
+"id": "51a5aa14-4cc9-4a41-aba7-9a5d5a527600",
+"class_name": "5",
+"bbox": [
+483,
+170,
+494,
+185
+],
+"polygon": null,
+"mask": null,
+"z_index": 2,
+"attributes": {}
+},
+{
+"id": "bfd1cc23-ac81-4194-a81b-ef99a45f3c38",
+"class_name": "3",
+"bbox": [
+472,
+220,
+488,
+246
+],
+"polygon": null,
+"mask": null,
+"z_index": 3,
+"attributes": {}
+}
+],
+"tags": []
+}, {
+"image_id": "dcf26d6f-ce96-42bf-a9e1-ce396bfdd2d1",
+"width": 640,
+"height": 360,
+"image_name": "frame826.jpg",
+"dataset_name": "Default",
+"image_status": "IN PROGRESS",
+"labels": [
+{
+"id": "83fce023-3551-4191-b4cd-96db142823a6",
+"class_name": "6",
+"bbox": [
+471,
+220,
+488,
+246
+],
+"polygon": null,
+"mask": null,
+"z_index": 1,
+"attributes": {}
+}
+],
+"tags": []
+}], "attributes": []}

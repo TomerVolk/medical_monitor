@@ -10,3 +10,5 @@ tqdm~=4.36.1
 
 opencv-python~=4.4.0.42
 pandas~=0.25.1
+scikit-learn~=0.21.3
+pytesseract~=0.3.6

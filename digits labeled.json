@@ -1,0 +1,6766 @@
+{"project_name": "Digits_tagger", "create_date": "2020-09-22T15:09:12Z", "export_format_version": "1.1", "export_date": "2020-09-22T17:37:14Z", "label_classes": [], "images": [{
+"image_id": "13601287-efdb-41aa-9425-93f0e47d69c3",
+"image_name": "frame0_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "5eef2379-6e0a-4440-8541-86dd72ad431e",
+"image_name": "frame0_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "b962e618-6557-41e1-b63a-1260b5d3b260",
+"image_name": "frame0_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "897168fd-57f7-441b-a5e6-fe0b15ca375c",
+"image_name": "frame0_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "930845af-206c-48ea-8011-df7192bef6db",
+"image_name": "frame0_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "d5f39183-3924-4e33-958e-132f86ca1ff6",
+"image_name": "frame0_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "169d63aa-b1f6-4589-a23d-298ec74ca778",
+"image_name": "frame0_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "9cb31276-3a22-4ffb-9724-2c35ab8116d4",
+"image_name": "frame0_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "c534f4e5-f659-4a89-ae7b-0c4894e3737d",
+"image_name": "frame0_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "5c33ce29-288b-4003-a8f5-33b04165cfe9",
+"image_name": "frame0_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "ba6b6fe5-5a47-43a3-a680-2aa6175a06da",
+"image_name": "frame0_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 22,
+"height": 16,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "e15ea5be-3453-4f6c-9ea7-182ee2a8eceb",
+"image_name": "frame0_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 22,
+"height": 16,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "07fd269f-81da-494f-9105-2a80fc09a666",
+"image_name": "frame0_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 14,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "57314695-faab-47e6-bbeb-325ac7b1b715",
+"image_name": "frame0_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 14,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "6f09b460-cd1f-4e6f-857b-af8ceae6c380",
+"image_name": "frame0_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "38419452-75dc-4cc8-870b-21d907689388",
+"image_name": "frame0_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "b087a246-3e9b-4f1e-9f70-86782fc1e09a",
+"image_name": "frame0_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "b6988f95-39cd-4a4c-a619-d816c59979a4",
+"image_name": "frame0_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "8d96f95d-bb72-48a2-841b-3bcdeb6946f2",
+"image_name": "frame0_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "d908dd3d-4123-4d28-835b-75986c443c47",
+"image_name": "frame0_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "db88e911-d0dd-4058-8ba0-ad35f28b3a59",
+"image_name": "frame0_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "18d494a2-3059-491e-8457-d28ed02739d8",
+"image_name": "frame0_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "58c1c076-c54c-4fdd-860d-657413198f45",
+"image_name": "frame0_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "e4011077-6321-441f-aa05-5bc9ec5505ec",
+"image_name": "frame0_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "15e97e94-3d6f-41e8-9b46-55d2cb4bf189",
+"image_name": "frame0_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "3b698bfb-665f-420e-842d-0c45c197a689",
+"image_name": "frame0_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "8e533552-a9fd-44dd-a923-7843a36be70c",
+"image_name": "frame0_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "6a370356-59ea-407e-a2c9-88732d887bca",
+"image_name": "frame0_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "ba317efb-2c13-4b09-8735-41195dbb42f5",
+"image_name": "frame0_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "fd10604e-54ec-489d-a182-88cdb1ce89e8",
+"image_name": "frame0_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "71edcd5b-48ff-471a-b689-265be75612e8",
+"image_name": "frame0_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "c9b6c2c0-127b-4313-ac2a-7ecfffa3a80e",
+"image_name": "frame1064_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "804dfa17-e60e-4a94-ad64-05dbc4161c40",
+"image_name": "frame1064_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "3159feaa-9f72-4d1b-99a3-635ac2f01542",
+"image_name": "frame1064_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "e4611de9-32d1-476a-be69-ce62a16418e2",
+"image_name": "frame1064_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "48b10ac1-67fc-450b-a734-648fbcb24f06",
+"image_name": "frame1064_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "e8622a1a-4c28-4699-a07a-60f4cbdfdef6",
+"image_name": "frame1064_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "8b9ea64e-0f99-441d-8143-bf45421cfaad",
+"image_name": "frame1064_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "81934e6b-cf11-4313-8169-6417ce698464",
+"image_name": "frame1064_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "2b9716c5-0e8f-45d5-852c-6424d94ba991",
+"image_name": "frame1064_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "3e3d9110-073a-42cc-8ec1-6347c14b01a2",
+"image_name": "frame1064_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "8b67da30-2b7d-450f-9397-6d7c328b8fdd",
+"image_name": "frame1064_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "4bc52d1f-dc92-437d-9885-5fba6790e868",
+"image_name": "frame1064_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "09951d76-1718-4b07-81c2-932d478c2be1",
+"image_name": "frame1064_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "9cce73e6-58bb-4213-bef5-c88ec86eca1d",
+"image_name": "frame1064_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "9e7a4722-9837-4568-b47e-a6e156df9544",
+"image_name": "frame1064_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 24,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "384ed58f-2c00-43c1-a152-31058fccd7e3",
+"image_name": "frame1064_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "9ff0e281-bb7e-4bce-a8ac-3b9ec6b8fe2d",
+"image_name": "frame1064_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "6f871885-7c0e-4f37-9db2-18fad5393a78",
+"image_name": "frame1064_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "f834a4bf-836b-4d58-b3ee-d0d13d6ef23e",
+"image_name": "frame1064_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "d4452cca-f1e0-4a61-8f08-ce62561fac0c",
+"image_name": "frame1064_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "18c4758a-bcb2-4617-971e-f25b1fe3745d",
+"image_name": "frame1064_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "6e61faab-a546-48c6-8e88-2a784d27a660",
+"image_name": "frame1064_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "3ab0bbe6-225b-41ca-b359-12f545f0d532",
+"image_name": "frame1064_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "86f30ff2-7a2b-4d54-ac32-5d69e5920f19",
+"image_name": "frame1064_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "c643c532-83c5-4035-ae56-d2d7e5add3df",
+"image_name": "frame1064_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "b4500e14-0620-4bbd-8d62-c3dccde730d7",
+"image_name": "frame1064_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "b11093ce-71b3-447e-8977-0cdd852d2d8a",
+"image_name": "frame1064_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "9cc6214b-57b0-4f35-896e-52690a2678d6",
+"image_name": "frame1064_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 24,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "512b6569-ad9b-4357-aa64-501f11ea5061",
+"image_name": "frame1064_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "c65c271f-84cc-4682-af7c-fa61390ba199",
+"image_name": "frame1064_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "1910db08-dc00-4bc8-a859-611f527f03a5",
+"image_name": "frame1064_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "8ffe5c33-59be-4b1d-abe8-9566b9e21f2f",
+"image_name": "frame1120_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "239d2641-89b3-4b30-9732-414bf44ef94d",
+"image_name": "frame1120_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "afa70a59-d8d4-4fe4-b76b-50414c2089db",
+"image_name": "frame1120_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "9ae099b7-8bb3-4ff2-8a58-f4c198fd1d70",
+"image_name": "frame1120_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "0e67febf-d789-4881-8a43-14890aa38b84",
+"image_name": "frame1120_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "b7969b4a-c85e-45c8-ae8b-925083108482",
+"image_name": "frame1120_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "11543ec6-5f18-45d0-bf2a-788347625f63",
+"image_name": "frame1120_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "666795b8-1c98-4616-ac70-9064c3524b21",
+"image_name": "frame1120_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "7435b206-27ba-43ac-8f5b-ad55945fe139",
+"image_name": "frame1120_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "1f41e45c-a62f-4b19-99da-a62fcbffe017",
+"image_name": "frame1120_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "5b333987-8415-45a7-946c-07c539a50ea5",
+"image_name": "frame1120_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "3cb1022b-f8f3-4652-bac2-339dbdb3628b",
+"image_name": "frame1120_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "598f5c58-5ccc-4862-98e2-a7ef4096f634",
+"image_name": "frame1120_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1910e603-bab2-415f-bb55-307f33d005c3",
+"image_name": "frame1120_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 27,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "08c00c52-fd6e-4222-911c-6b325f9a68b0",
+"image_name": "frame1120_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "94bc60fd-69dd-4667-9a0f-0dbc32e67827",
+"image_name": "frame1120_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "4ad508b9-b9b0-4631-ba38-dfca2ecf4cac",
+"image_name": "frame1120_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "0f8a214f-c636-4a86-b1fb-a8e4970a4611",
+"image_name": "frame1120_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "55f0b43d-48bb-4a3a-8525-0bb78ff8abfb",
+"image_name": "frame1120_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "40a7fe43-aaf6-4cc6-9995-5826d56744d4",
+"image_name": "frame1120_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "66f3e197-6c54-4c02-971e-a88459eb1a19",
+"image_name": "frame1120_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "e8098b1f-7a35-4a6f-b538-b586911abcfe",
+"image_name": "frame1120_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "b1f50bf6-a42d-4c05-b4d0-98da299e3322",
+"image_name": "frame1120_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "020bd2dd-8ac9-493a-9999-5840c2793c9a",
+"image_name": "frame1120_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "ef3767dc-ee64-453e-a97a-5fac12f809bb",
+"image_name": "frame1120_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "87ebb66d-2097-40bf-a3c0-a4acfb8e3e97",
+"image_name": "frame1120_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "2582f939-c78a-4097-9590-da2a3a3b9857",
+"image_name": "frame1120_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "cdbfec4f-b74a-4170-bec3-e1846a12b29b",
+"image_name": "frame1120_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "de33f162-ec48-46ab-b560-4510f6fdc1ea",
+"image_name": "frame1120_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "8eb529bd-2a2d-4600-b669-b56d1d0bdb1f",
+"image_name": "frame1120_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "3f1634a6-f01e-462b-9654-2d0c47a4c707",
+"image_name": "frame1120_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "8c480577-2fd3-4202-aca2-d4e9c4acd254",
+"image_name": "frame1120_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "5f7fe424-312a-42ad-b271-bb4f0dad88c0",
+"image_name": "frame1190_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "8d12e241-5d0f-40f0-9223-62b3624d7a2d",
+"image_name": "frame1190_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "5bfa7199-c908-47e1-98d9-3f10e5f36239",
+"image_name": "frame1190_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "70a3ff06-1339-44ec-9610-1ba281bb01ea",
+"image_name": "frame1190_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "2ea4bcc6-6c8f-4bfd-9bb9-3b8600af6f20",
+"image_name": "frame1190_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "f9b0034c-1a09-469b-a3b2-67ceecd21577",
+"image_name": "frame1190_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "916172dd-576c-43d9-9d7e-3ec5994d4251",
+"image_name": "frame1190_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "1828e045-7911-4619-9a5f-d5e09576ef6e",
+"image_name": "frame1190_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "8b883745-69b9-4dc8-be39-acaf7c27d8e2",
+"image_name": "frame1190_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "77f2852d-ad44-4695-bdce-efaa4b90b8ad",
+"image_name": "frame1190_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "b6130c11-4440-454e-9b6f-bf0e1e9041ff",
+"image_name": "frame1190_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "d9c89fa3-5372-42ba-af2e-9e4d4fff4d1e",
+"image_name": "frame1190_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "56c9e2f5-8f4a-4c89-9fb1-256b5345664d",
+"image_name": "frame1190_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "d60c9317-5c6e-45b6-b20a-a054d20b654b",
+"image_name": "frame1190_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 27,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "9619fffb-f31a-4bfc-afec-8c1af87912e0",
+"image_name": "frame1190_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "3ed4d96b-28fa-48b7-98b9-a905ba6c2580",
+"image_name": "frame1190_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "57b5dc9e-2e94-4ab9-952a-79594c238c77",
+"image_name": "frame1190_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "8120de14-64d9-494e-aa59-94346f1e55d6",
+"image_name": "frame1190_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "6fa3116b-5f0a-4d73-9cde-deb547b6fdf1",
+"image_name": "frame1190_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "b72101b6-fa6f-4ef7-9b56-c4982015c099",
+"image_name": "frame1190_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "fd9490a9-f3dd-4d06-a1e8-1d837eb13cd2",
+"image_name": "frame1190_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "baf5c110-1202-4c58-98a8-364a507e513d",
+"image_name": "frame1190_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "c3d0a0d1-7e55-48e6-8e33-d0adf494c32b",
+"image_name": "frame1190_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "7a55f7b3-16a7-464f-a25d-5cb1b4ef07ee",
+"image_name": "frame1190_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "5831da67-1bda-45f9-bc54-a4937d919f72",
+"image_name": "frame1190_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "aebd1da3-eeaf-4868-a506-3c72c126efe7",
+"image_name": "frame1190_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "b5ed1e1e-c17b-4ac7-90bd-c49121cb96c4",
+"image_name": "frame1190_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "bc7665d4-5edc-4c90-b9ec-4fb8977c1683",
+"image_name": "frame1190_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "a1d575a8-b83c-43ac-aa3a-04a9ef606c9b",
+"image_name": "frame1190_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "ff78e6d1-2ca4-4553-b670-e7ad06a1d1fe",
+"image_name": "frame1190_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "a6308b10-2038-41a2-baf1-d56cc4f3f5ab",
+"image_name": "frame1190_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "6c209ac7-eb8a-4537-b6b1-568af763deb0",
+"image_name": "frame1190_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "d9de3858-50bc-464f-8492-0b43de3bf4b4",
+"image_name": "frame126_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "153cd8cf-9430-4cd3-ba6c-ce82c3cb76ac",
+"image_name": "frame126_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "2a20ac1e-0db0-4860-8e94-276640624ba1",
+"image_name": "frame126_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "40912611-bcac-4647-80cb-d512847a799b",
+"image_name": "frame126_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "ac3ac930-d37a-4a78-b75a-e73a45b8e43c",
+"image_name": "frame126_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "8b459d1b-8595-43c1-8508-21fc2beda663",
+"image_name": "frame126_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "f449ffc5-e1ab-4205-9cc9-7c39126c4c72",
+"image_name": "frame126_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "c5cb9e3d-eda4-45c2-8a96-1f97552c2c57",
+"image_name": "frame126_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 21,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "2cb089fd-9b88-4528-803f-b4acf8643e28",
+"image_name": "frame126_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "f1a2e93c-d099-4ea7-8888-6d6b8c45281b",
+"image_name": "frame126_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "8a56aaa7-33b7-4eb4-a392-7a5dcfb58425",
+"image_name": "frame126_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 22,
+"height": 16,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "260116fc-358e-4be2-93cf-817b94109ab2",
+"image_name": "frame126_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 22,
+"height": 16,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "f959b8b9-f763-49e8-87bf-b14ca47fccf6",
+"image_name": "frame126_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 14,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "3ae6d3aa-47f0-4033-b5be-e085af270b93",
+"image_name": "frame126_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 14,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "7e102fa8-83c6-4588-85df-7334d82cd43f",
+"image_name": "frame126_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "9e4cf3aa-b90e-42ec-b47d-9694a0e1bed1",
+"image_name": "frame126_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "ba16000c-cec2-4324-8480-543f07c1d817",
+"image_name": "frame126_PAP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "471187d8-3ac1-468b-8605-d6df5c3b8b82",
+"image_name": "frame126_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "c3bfb59a-9194-4f1d-bc9e-3c3e42bbe5bb",
+"image_name": "frame126_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 21,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "465e3c42-2429-4f18-9eea-07c9f75f1de6",
+"image_name": "frame126_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "b607f995-8fc9-4f78-8377-ed61da40e9c4",
+"image_name": "frame126_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 12,
+"height": 28,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "6167237a-3b3f-4f1c-9455-dd14b5b1429a",
+"image_name": "frame126_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "0f4c69f7-686f-404f-98d1-d4afcde35523",
+"image_name": "frame126_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "3068e7b8-8c7b-484b-b973-a38f8fa07b99",
+"image_name": "frame126_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "f9fded68-c954-4352-9b8c-972caeb1fa98",
+"image_name": "frame126_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "68950366-3862-439e-bda2-bef04a594f6b",
+"image_name": "frame126_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "c4e41b06-d10d-482c-a25d-c4b4e66fc8fc",
+"image_name": "frame126_PAP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "0e831740-b6b3-4ff3-9c24-01b8230963a5",
+"image_name": "frame126_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "48a11d18-d903-4fca-a82c-22e82c042cd3",
+"image_name": "frame126_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "e01e9122-6d92-4f00-b4a7-7bf82936148d",
+"image_name": "frame126_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "42b2e524-7c9c-4750-ba7f-2e48698d4a2b",
+"image_name": "frame126_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "429d8ad1-87b4-4bf3-8d93-ec33ba7f4fd4",
+"image_name": "frame126_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "2bd65548-52c0-4265-86a4-3d206d620ddb",
+"image_name": "frame1316_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "3d10d143-3f81-4e1a-9532-19986e756014",
+"image_name": "frame1316_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "c1b7c2d7-e03a-4aa7-8885-1112b5e5c8d7",
+"image_name": "frame1316_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "6d80206b-ec77-44bf-9652-93a09c7fc0a2",
+"image_name": "frame1316_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "bf95b7bb-425c-45bb-9024-2cd09ae5fe7a",
+"image_name": "frame1316_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "b125ea9e-7acf-4831-bc03-4700d27cc4ac",
+"image_name": "frame1316_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "c396dc9e-c83b-43f2-9e77-bdb500a7098b",
+"image_name": "frame1316_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "cac6510e-bf80-4531-958f-ed15f887ee3d",
+"image_name": "frame1316_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "900cda4b-228d-42e0-b7fb-ccba77b534a7",
+"image_name": "frame1316_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "fe9cf924-81a2-44a9-beff-5ae3061128b5",
+"image_name": "frame1316_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "6f6b68b5-a0f5-4e23-800a-dc5ee467e11e",
+"image_name": "frame1316_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "47a85853-cb79-4f49-b45d-bfe7809b66b6",
+"image_name": "frame1316_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "f34e7989-4317-40ab-891a-3559de810f62",
+"image_name": "frame1316_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "8f0610a6-3a22-4674-9120-1aeac108decf",
+"image_name": "frame1316_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "870b0fdc-bd0c-44bf-aa01-6ec10598db1a",
+"image_name": "frame1316_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "eb6f67a1-1aab-48b6-9fc6-cfc376b6440c",
+"image_name": "frame1316_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "2dcbd2f2-63ff-4dc5-92b1-9ffa61bc5ac2",
+"image_name": "frame1316_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "afde8eff-f9e6-481b-98e8-a21344dd3a29",
+"image_name": "frame1316_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "c4558b52-58a9-4de5-8b14-bb8e7d7615a6",
+"image_name": "frame1316_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "124272a2-3efc-4056-a5aa-503cd59c4f77",
+"image_name": "frame1316_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "83aceb81-0b2c-4736-bf03-9e48554f6ef6",
+"image_name": "frame1316_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "613115c6-6374-4648-ab9a-7851a3f94f45",
+"image_name": "frame1316_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "4d497a48-7912-45e9-a0fc-06ea2657616b",
+"image_name": "frame1316_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "b55a7b37-8c5d-4754-b8e7-d21c609aac8d",
+"image_name": "frame1316_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "bd32fef9-d3fe-4fad-b335-aaabcbb2601f",
+"image_name": "frame1316_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "144c9e1f-aca2-4e02-bea7-0f00ffd3c983",
+"image_name": "frame1316_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "66a3cff5-16d1-447b-a8df-9757b660dac8",
+"image_name": "frame1316_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "5a354f04-3a0f-45de-b16c-10632736b748",
+"image_name": "frame1316_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "b1ed8530-6ddd-4f1b-92bb-ef743a74fd3f",
+"image_name": "frame1316_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "b80ab77c-8d92-4798-bf24-20c2358299d9",
+"image_name": "frame1316_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "96ef91ad-3e1f-4914-84b4-2395e7f48fa5",
+"image_name": "frame1316_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "8eff0560-2ba1-4692-b598-093371bd5694",
+"image_name": "frame1386_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "697c4a48-4373-4b39-8700-0afa26a14adc",
+"image_name": "frame1386_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "f65a1677-7305-444e-bb34-db93bd9d9341",
+"image_name": "frame1386_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "86b77221-c026-42b3-b7b1-5b6ff3f28041",
+"image_name": "frame1386_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "ca28613d-1395-4b71-a241-7d9ca43e65dd",
+"image_name": "frame1386_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "e893e859-d555-4e14-8013-8a7d0fbb4cb3",
+"image_name": "frame1386_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "c31f8697-ad63-41ce-8319-19775cd520d7",
+"image_name": "frame1386_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "1b66fdca-abfc-4ae4-9c37-50d3008c12c4",
+"image_name": "frame1386_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "4bf2828f-2b59-41fb-99b4-fcf26d2996b7",
+"image_name": "frame1386_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "76d07cd6-ffe5-4d9a-b1cc-d2ed10dd9ce4",
+"image_name": "frame1386_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "c117b461-39fe-4d07-982b-a1980271341d",
+"image_name": "frame1386_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "9783fefb-91a8-4a38-85eb-2188bb6d9d49",
+"image_name": "frame1386_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "28e6b7f2-3987-4bc4-b8b0-fb9ad131ad10",
+"image_name": "frame1386_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "2c384a33-517e-42a8-a853-e90cc57b33b4",
+"image_name": "frame1386_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 26,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "b17ac1a9-b5db-44c9-a5d0-bb9c008e6521",
+"image_name": "frame1386_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "137e5c9b-3b52-4b6a-b7b5-1f4aeab9dfbe",
+"image_name": "frame1386_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "88064a57-e290-4bd2-aef4-bd550b1f6529",
+"image_name": "frame1386_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "d2b30bd2-617a-4c4d-984f-8bd5a76a96d3",
+"image_name": "frame1386_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1dd7c89f-52cc-49ca-8eef-9d1469d08fd0",
+"image_name": "frame1386_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "b96f3d28-8a1c-4b0a-9019-61e9084df0c7",
+"image_name": "frame1386_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "8313d546-e4c0-473c-be3d-e6e8f72edda1",
+"image_name": "frame1386_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "dfe3d4bd-eb5d-4820-9f56-09ad1fa5ff57",
+"image_name": "frame1386_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "b91d2f27-e85e-4541-80c5-476989ffc867",
+"image_name": "frame1386_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "4dac951b-6870-475f-93d3-c8c12ecae6d0",
+"image_name": "frame1386_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "df89ada0-c878-4fea-a359-a3a6f40a0f79",
+"image_name": "frame1386_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "9ec67c49-0539-43f4-80f5-862f2a3021ee",
+"image_name": "frame1386_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "e14d68ca-b3c2-4e1a-aef1-2e7a56c83747",
+"image_name": "frame1386_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "2b0d4625-8549-45fc-8972-e8b7cdc32089",
+"image_name": "frame1386_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "e90f754c-57ff-48e7-9718-5aaf71fcead2",
+"image_name": "frame1386_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "46e63f14-fd44-48f9-80cf-e4c8d33e0dab",
+"image_name": "frame1386_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "96d0fd73-7a66-408b-ba1a-13c1bc522769",
+"image_name": "frame1386_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "be968977-e90a-4302-83be-116472730b28",
+"image_name": "frame1386_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "bceea3d4-effe-406b-9c79-26a408932c42",
+"image_name": "frame1428_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "84ab6f82-6dc4-4819-9126-c82715c50abb",
+"image_name": "frame1428_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "8277f4fe-50e7-4dec-b4b1-680648a92537",
+"image_name": "frame1428_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "021cba38-f085-4f15-bee4-4b84f7cafb07",
+"image_name": "frame1428_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "00899f3a-f5af-4f94-ab9a-5999bacf999f",
+"image_name": "frame1428_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "67d732a4-3c0d-4970-866f-f9368428edc8",
+"image_name": "frame1428_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "0f0db4ef-5f46-4763-ac85-24dd5d0e46f8",
+"image_name": "frame1428_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "a7884469-7b50-4f08-ba26-2552a7bc30f6",
+"image_name": "frame1428_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "1a0d8aa2-f192-44e1-b99e-8d4397802b3d",
+"image_name": "frame1428_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "df587f69-21c6-4e46-ba34-082d6277738b",
+"image_name": "frame1428_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1125b849-42cc-4f56-b54e-eb3c60fdf65c",
+"image_name": "frame1428_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "d534445c-0e52-4159-aee6-6c389eaf1fff",
+"image_name": "frame1428_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "6ff76fdc-ad0b-4695-9149-94f2dc7c6212",
+"image_name": "frame1428_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "21d65e2f-3619-4be8-8788-7ec1a842bf6c",
+"image_name": "frame1428_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 26,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "be45b31d-f43d-4805-b392-7d238c9ec079",
+"image_name": "frame1428_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "9e8639f5-2760-4023-a920-7d695aa386e7",
+"image_name": "frame1428_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "28031440-60a9-4ead-b64f-b49f1362c442",
+"image_name": "frame1428_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "1a253366-c712-4dcf-8304-4883f67431b0",
+"image_name": "frame1428_PAP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "ba78bd7e-0eca-4c54-b4d7-0a87fa365d6b",
+"image_name": "frame1428_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "ca0008f6-b105-4b1c-a70a-dd48c8b8a7c2",
+"image_name": "frame1428_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "acd06785-3776-453c-a603-34b55ba05c11",
+"image_name": "frame1428_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "490525f5-8cef-432b-bd13-26aca2ed5997",
+"image_name": "frame1428_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "b78f1ac2-1def-4b04-ae4f-2cca2e06eb91",
+"image_name": "frame1428_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "a9109bfb-0438-4a4a-964e-08d5c60eee60",
+"image_name": "frame1428_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "4cb074cf-54df-4069-882f-95553969dc50",
+"image_name": "frame1428_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "147258ca-b0cc-4f89-8f24-6f6aa21f6daf",
+"image_name": "frame1428_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "fbca3f12-49c7-453a-bd79-5a792bc31162",
+"image_name": "frame1428_PAP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "4c806283-71ba-44fd-89b1-a66390916e63",
+"image_name": "frame1428_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "82b041ab-9b4c-4314-bc93-79c7f6523b37",
+"image_name": "frame1428_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "ba08a60c-8fff-4ac9-96fa-400c58c86245",
+"image_name": "frame1428_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "f2e8c744-bd62-4561-9941-48b2d8df9d28",
+"image_name": "frame1428_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "22d34df2-24b2-4fb6-be1b-429a202d14fe",
+"image_name": "frame1428_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "999c3d69-b718-4826-929b-e4917da1b64a",
+"image_name": "frame1498_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "979f2681-4129-4914-b649-9ca22b5c3015",
+"image_name": "frame1498_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "79fb8d22-280d-4482-b400-42e6074ce3cb",
+"image_name": "frame1498_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "fa829ff0-e534-4fa3-9f49-0a3b0bd2b29f",
+"image_name": "frame1498_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "c234a513-061f-4b82-8567-62db3766060f",
+"image_name": "frame1498_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "3ff54068-72fc-4944-929a-abf696f99efe",
+"image_name": "frame1498_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "0afec8ca-9e03-4d6b-a5eb-ef8be454628f",
+"image_name": "frame1498_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "2ce9c4dc-1deb-49bb-b105-8fa828096768",
+"image_name": "frame1498_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "3324e73e-4364-4e52-8c95-d35e27c7e25f",
+"image_name": "frame1498_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "1fc6504c-296e-465b-8bd3-3a2a9ad30906",
+"image_name": "frame1498_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "0914199f-76a6-45f0-a29d-0808f56b68dc",
+"image_name": "frame1498_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "4adb63b7-d3ef-4d25-a24f-86ad5aa5ceb3",
+"image_name": "frame1498_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "6b41a2fc-7a54-4f0a-8d3c-c2ae23c73e61",
+"image_name": "frame1498_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "ae480bff-0af4-49ba-8118-b799e8767bf7",
+"image_name": "frame1498_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "4732cc57-1e7d-4191-8955-4c1d28b9f463",
+"image_name": "frame1498_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "ef59a1f0-5e16-469b-9407-564e33e56dc3",
+"image_name": "frame1498_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "7fcfc054-c830-46b8-b5da-15f189de7d24",
+"image_name": "frame1498_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "5b439abc-71ff-40d5-966b-b533792b5053",
+"image_name": "frame1498_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "8b118fe3-213a-48fd-972e-9a91ce4d866c",
+"image_name": "frame1498_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "03c04b9a-a474-4fc9-8fb4-edf26ff29b7e",
+"image_name": "frame1498_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "30619843-60e9-46d0-86cd-893e80aa5036",
+"image_name": "frame1498_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "867c8a98-07ad-4ddb-8e95-c281e21d082a",
+"image_name": "frame1498_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "9b2c5904-d6af-4947-9c96-79762e6b87e8",
+"image_name": "frame1498_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "ac5ae0da-d830-4819-b606-933fee79cfad",
+"image_name": "frame1498_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "768dc2f3-f8b8-40c9-a02b-dd7a9dee0ea5",
+"image_name": "frame1498_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "23e3b8c2-c80a-4e69-8131-375e88a68ffb",
+"image_name": "frame1498_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1a4317e0-ce2d-4121-be33-b6db7c7fbc0d",
+"image_name": "frame1498_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "e0aebd70-be9b-46ef-b164-8e502a02e6f2",
+"image_name": "frame1498_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "ffe0a38c-6a4b-4d49-902e-76adfa0d4278",
+"image_name": "frame1498_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "41e561a5-cb61-40c9-9321-b3b289602f38",
+"image_name": "frame1498_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "864c44c8-588f-4733-b28f-a419daf035b6",
+"image_name": "frame1498_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "62e612f4-fc97-4aca-8bdc-abfdd422f903",
+"image_name": "frame1498_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "44d5523e-66d5-4392-9550-156b6860e7ac",
+"image_name": "frame1554_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "ad34eae3-2465-4a44-aab2-2c3d16dd547b",
+"image_name": "frame1554_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "d08ed989-dfec-46e8-904f-0e995b921429",
+"image_name": "frame1554_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "07d2800f-2a5b-4efb-b39a-21643889c35f",
+"image_name": "frame1554_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "f72a4615-d2e7-419a-b161-029cdee93440",
+"image_name": "frame1554_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "bea86c4e-de42-41a3-a05c-ce5b8d19bfbc",
+"image_name": "frame1554_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "bced2398-8572-4d78-bf70-cf15c8dad5f2",
+"image_name": "frame1554_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "4ae11441-8fd7-46c4-b3e6-685a6ad7401b",
+"image_name": "frame1554_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "47e33037-ad64-40da-a87e-4a70c0af6b21",
+"image_name": "frame1554_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "adb118ce-fe6d-4ffd-9991-f5d04ccaa2ba",
+"image_name": "frame1554_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "81636967-6030-4911-a98b-9857f883f749",
+"image_name": "frame1554_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "3b11243e-f8c7-4ed0-9cf0-449478d1b252",
+"image_name": "frame1554_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "886d52d2-1fcf-4989-b4ff-00aa356e326d",
+"image_name": "frame1554_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "31b3f3bd-486a-4177-874e-965b26cd4dbd",
+"image_name": "frame1554_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "353155d4-ef67-4a45-b042-841b95dec0a8",
+"image_name": "frame1554_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "8b08d85d-f81f-442d-abf1-03537e606db8",
+"image_name": "frame1554_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "73eca903-0b9e-4cf2-92d0-2bac55e57c01",
+"image_name": "frame1554_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "ef9fe204-c2e0-4b0f-9daa-62c66255dcbe",
+"image_name": "frame1554_PAP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "e45e3dc6-bfc7-4b46-aadf-2b29042bce92",
+"image_name": "frame1554_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "6f0323bc-f029-4313-bb7f-aa97f6f933ca",
+"image_name": "frame1554_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "009481a7-64b6-44e1-9cea-507a0908e99c",
+"image_name": "frame1554_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "a3e7f5b0-4394-4a17-932b-49e5b3a7200f",
+"image_name": "frame1554_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "9e230da3-b1e3-4a51-a560-1aa8d1b28d8f",
+"image_name": "frame1554_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "b1a003b7-720a-48ab-91b3-f2fdc21f0088",
+"image_name": "frame1554_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "d67d1b3f-1986-400b-9c2b-67064ef54686",
+"image_name": "frame1554_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "b2665c1d-e0f4-4ca3-9e6b-eadee712ba2a",
+"image_name": "frame1554_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "9b71db55-73e6-46f6-86c8-a79a76a52a38",
+"image_name": "frame1554_PAP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "b2f44cd4-62e7-4bdf-a96e-5dbb0fd6d619",
+"image_name": "frame1554_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "41319f25-b0af-4cd8-bc39-a80762109e73",
+"image_name": "frame1554_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "21946355-5240-49ec-9430-bbe82fea7e6a",
+"image_name": "frame1554_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "64f99df5-1fad-4262-8426-9d99e4149978",
+"image_name": "frame1554_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "318af9aa-c5cf-4cbc-bab8-2b7191a5d5aa",
+"image_name": "frame1554_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "7df1b9c2-b9e9-4b1c-8973-20c1e62206b4",
+"image_name": "frame1624_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "a590a053-f54a-4383-9078-7c923401be1c",
+"image_name": "frame1624_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "711fe56c-da3f-415b-b478-305e9d30773d",
+"image_name": "frame1624_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "0e6c562b-71ab-4d5e-aa67-39731a21869f",
+"image_name": "frame1624_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "0a060add-57c0-4660-83fc-61625bc987c2",
+"image_name": "frame1624_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "eff1506a-7c98-48b2-a2a0-717368b3a762",
+"image_name": "frame1624_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "89742702-e72c-4e59-a4ac-a40ed466c98c",
+"image_name": "frame1624_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "b4ff7722-d0f3-4ba3-8113-18b457f32a51",
+"image_name": "frame1624_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "54c0196f-17a5-42b7-92d6-a5519e5046f3",
+"image_name": "frame1624_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "d60c540d-e166-48de-8707-e432c466aa04",
+"image_name": "frame1624_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "c679fc98-df35-4f83-bdde-9ea4946ff1cc",
+"image_name": "frame1624_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "3192d881-7d43-4ea2-850b-ac07ab6ca584",
+"image_name": "frame1624_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 27,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "eeb913e0-e4a2-4e03-93ed-c022b584aa49",
+"image_name": "frame1624_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "94bf5dd1-ed5f-41e3-8391-de97c192bdbe",
+"image_name": "frame1624_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "f1642eaf-5e7b-4240-8d53-a4d7799e195c",
+"image_name": "frame1624_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "3c88599b-8320-4149-a4f8-7f622bffc103",
+"image_name": "frame1624_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "6ea7da2f-f365-4d73-933e-b33e8b949424",
+"image_name": "frame1624_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "f34beecb-8dfa-49a4-bea3-9e406f0ad6c0",
+"image_name": "frame1624_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "c8a1e750-462c-46c3-899d-59fb23593063",
+"image_name": "frame1624_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "0e44b56a-d931-4aec-9d5a-8bc8433dd6d8",
+"image_name": "frame1624_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "d59f3339-6ffb-4f47-967b-794fae083948",
+"image_name": "frame1624_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "089474d0-fdb8-47ce-bf49-5efb48b725a8",
+"image_name": "frame1624_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "5fa2daa6-5c0e-48af-b958-7de9647ecb5e",
+"image_name": "frame1624_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "28c2289b-6d85-4f5a-9753-e38893d42aa8",
+"image_name": "frame1680_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "5256022a-7815-4bb4-a92f-8bdf7253900e",
+"image_name": "frame1680_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "f4c489c1-7d68-47e5-a845-be37e7f1a63c",
+"image_name": "frame1680_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "289ac84b-9904-4c87-84ed-5ec25b7b7bf5",
+"image_name": "frame1680_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "3751af4e-ea78-4843-abd8-f633f4094486",
+"image_name": "frame1680_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "8ce2786f-dcd5-4e6c-a6ac-0f37af7c93f3",
+"image_name": "frame1680_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "17403a47-4dc4-4d6b-9810-7f61288ae714",
+"image_name": "frame1680_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "a75e521f-8169-49ca-94ed-84f658a4f46b",
+"image_name": "frame1680_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "39177e84-5eeb-4632-bb02-500bebc17ab5",
+"image_name": "frame1680_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "21643864-b935-4e52-991e-7ca36624d8ba",
+"image_name": "frame1680_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "84002960-c23e-44c1-961a-e483d371eacc",
+"image_name": "frame1680_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "694ffd3a-b193-43bd-b895-0e4a8ad8b48b",
+"image_name": "frame1680_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "0bd61417-7898-497f-9982-14054ef2c307",
+"image_name": "frame1680_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 27,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "db2fdce2-682e-4357-bc26-c36267e36f32",
+"image_name": "frame1680_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "b342fde2-3c33-4dd2-ae87-2ac5a3171dca",
+"image_name": "frame1680_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "b955ba16-2e75-448d-8e04-a1885b2822cd",
+"image_name": "frame1680_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "87675954-4329-4f00-b78e-0a5727ea8d63",
+"image_name": "frame1680_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "b5960c65-5002-483e-aa7b-d9c382c7fe36",
+"image_name": "frame1680_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "46307bde-f837-4859-94b5-6a1ea4b7ecd5",
+"image_name": "frame1680_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "3a089f4f-a7ed-4819-bba2-4ee054a005eb",
+"image_name": "frame1680_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "c486cdcc-16d8-485a-9505-ea8f78fcb2f5",
+"image_name": "frame1680_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "616b4c70-4fd9-4252-8d4a-222d36897ae3",
+"image_name": "frame1680_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "8a5343e7-47bb-4213-9e22-e5ab4e6623c4",
+"image_name": "frame1680_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "6e5010c5-eb3d-4802-abfa-701300ae247f",
+"image_name": "frame1680_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "f0b5c33d-eedc-46e5-a5ce-0b037b1ad6ca",
+"image_name": "frame1680_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "2125623f-3f07-4efd-bf3e-4e512d4b1b1d",
+"image_name": "frame1680_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "35cba053-c766-443f-a4fb-36032aacc955",
+"image_name": "frame1680_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "26cb31a4-bde9-4fbe-bd66-73a3e93b2a2f",
+"image_name": "frame1680_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "52dda9bf-b682-4be9-aaf9-028497a389f2",
+"image_name": "frame1680_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "80fd405c-7ac1-4746-893f-c2e3ecc42bf3",
+"image_name": "frame1680_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "c115355b-3588-4590-8a2f-ea8025fccd53",
+"image_name": "frame1680_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "8abf89c6-720f-412a-9c2c-de28965b10c0",
+"image_name": "frame1750_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "ad9bddaa-1e8b-4f44-a84b-63ffc8d285b2",
+"image_name": "frame1750_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "621e57b2-9828-44d1-a244-7272ab4bc473",
+"image_name": "frame1750_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "f9d359b9-8854-4eef-8e8d-34d1e485a48a",
+"image_name": "frame1750_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "53fb6e8d-ba0a-4032-a582-34cb0bdc7768",
+"image_name": "frame1750_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "20644b87-f3f9-4c24-9431-f33dff046aeb",
+"image_name": "frame1750_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "a268a9bb-1bc2-4d3a-b395-c1fad2c27e0a",
+"image_name": "frame1750_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "a779ada4-5006-428e-938f-2a8c33caf700",
+"image_name": "frame1750_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "23fad990-5cf3-4d5d-b908-d517069b621b",
+"image_name": "frame1750_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "c569eefa-2133-45b8-8217-3e7b20181926",
+"image_name": "frame1750_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "01195289-6424-4919-861f-dbd3c98592bd",
+"image_name": "frame1750_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "fdcced1e-b301-4b0b-b4f3-cad5f84a70d6",
+"image_name": "frame1750_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "d484d016-d675-49a7-b3b3-b59b67044701",
+"image_name": "frame1750_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 27,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "0e515b15-72c6-454b-bde4-51be0a2b3a5e",
+"image_name": "frame1750_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "cba528c9-4ed4-4e2c-bf70-484b6f2a666b",
+"image_name": "frame1750_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "d14a4eff-461e-4bb3-a900-364de5ae359e",
+"image_name": "frame1750_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "c0110d43-abc5-410b-9680-a466edb725e4",
+"image_name": "frame1750_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1b6fa857-1b92-4845-b0bd-5a42ef218026",
+"image_name": "frame1750_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "210c0bce-9a02-4b0b-aed2-f829545447ad",
+"image_name": "frame1750_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "54baf766-c4ee-468c-a582-1f1ba21409f5",
+"image_name": "frame1750_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "2e810af7-c97c-4768-b8e0-12c02153500b",
+"image_name": "frame1750_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "e75f87ee-f7a1-4664-a63a-e1fd9548d8ff",
+"image_name": "frame1750_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "d25c2a45-aabe-4a5e-9897-291972b7c11c",
+"image_name": "frame1750_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "036fbfa1-6c95-48f2-9fe0-5f420a86095f",
+"image_name": "frame1750_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "f8014fca-8417-4853-8d6a-d074a741ba34",
+"image_name": "frame1750_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "e6c74ea1-ad15-4775-9fbd-965a5847f96b",
+"image_name": "frame1750_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "58e57ea7-713e-48dc-b64f-0ea83e42021a",
+"image_name": "frame1750_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "ce1a492a-c9a1-4456-8c12-bcbd5cf1030e",
+"image_name": "frame1750_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "e9d52e84-2f91-4aac-8f4e-7ee05814bc9c",
+"image_name": "frame1750_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "398d26d8-2693-4071-aca1-1b5c0b8c62d6",
+"image_name": "frame1750_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "b10842e2-44ff-4a94-af06-3e52002a4465",
+"image_name": "frame1750_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "52256d8d-3b08-4513-9be3-170538580882",
+"image_name": "frame182_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "abfc21b9-16d0-4f8c-8b93-be424971fd5b",
+"image_name": "frame182_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "5974b1a5-0730-4911-8839-5467b798ac7e",
+"image_name": "frame182_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "12ce1578-3525-44f2-903a-9849fb74f8d4",
+"image_name": "frame182_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "ea9d5fbd-28ff-4c54-bbf9-f3ced7b8abfd",
+"image_name": "frame182_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "6ee0ebea-4409-4c47-b7a4-4e351f0cb73c",
+"image_name": "frame182_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "e3badc82-942f-4936-9a1c-b343076081b2",
+"image_name": "frame182_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "907e6dff-9c32-44cb-bd3a-24e879ffc087",
+"image_name": "frame182_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "6f810438-ee34-4ed7-9e38-8ecebb9540e3",
+"image_name": "frame182_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "2aec6b61-e963-479e-8ebe-58a8a3e2c836",
+"image_name": "frame182_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "106298eb-7844-4f52-ac68-2584a8e8d434",
+"image_name": "frame182_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 22,
+"height": 16,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "accc411b-19a0-4556-8bb2-0f76bb1a4758",
+"image_name": "frame182_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 22,
+"height": 16,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "44d5d068-93c5-4dc0-8dc0-e763258ddcc4",
+"image_name": "frame182_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 14,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "7947c12f-e8f1-4c98-b856-38c90cc1bc28",
+"image_name": "frame182_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 14,
+"image_status": "IN PROGRESS",
+"tags": [
+"-"
+],
+"labels": []
+}, {
+"image_id": "3f99c00e-c57c-4fea-af85-4aab3280c8fc",
+"image_name": "frame182_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "27e0cf09-69ec-4596-90c8-50d714b23f3a",
+"image_name": "frame182_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "ca79a5a4-e08b-41c2-9d08-7e3316aaf45a",
+"image_name": "frame182_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "ecfae087-ca9a-4ced-9010-7ae4bcaba9c7",
+"image_name": "frame182_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1c6595fe-84ef-4b01-b607-17c513aac59f",
+"image_name": "frame182_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "0097f8e1-74d3-4d07-8536-004f3ea9e35d",
+"image_name": "frame182_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 21,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "2a6bf1cf-e56d-4eb4-87bb-65049fc13fe1",
+"image_name": "frame182_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "32320526-6216-446e-b627-4c49d494416b",
+"image_name": "frame182_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 12,
+"height": 28,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "b6c9a529-159e-4190-9a26-ea599c221075",
+"image_name": "frame182_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "fbf95f70-3d29-4e1a-953c-eda35ea7eec4",
+"image_name": "frame182_PAP_17.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "61a4362d-0791-450e-b4f8-d2879d0d2e23",
+"image_name": "frame182_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "968843c4-d570-456c-b114-1ba4976d158d",
+"image_name": "frame182_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "4fbd57eb-c59f-45df-95e1-775b5e23c4b3",
+"image_name": "frame182_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "352390e9-7c9a-4de1-805b-9cd007110afb",
+"image_name": "frame182_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "2f646798-db21-486d-828c-7d92440b649c",
+"image_name": "frame182_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "3ffec8f5-acf4-4332-8f77-647e6ce4d602",
+"image_name": "frame182_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "061ae233-8685-4460-ad4e-5e5eb5d4a5ae",
+"image_name": "frame182_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "d2d4e71e-bffd-4f2a-b260-5e2008a2c598",
+"image_name": "frame182_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "0d26b060-4352-48ad-8ca2-ac7f30320151",
+"image_name": "frame1876_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "52b46cb9-5795-4aa5-b0e0-91be4ce58042",
+"image_name": "frame1876_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "f1491fe2-eb27-4a2d-9075-6bdfa50493e0",
+"image_name": "frame1876_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "6cdab2ed-04c1-4dac-95b1-013eeb186b18",
+"image_name": "frame1876_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "11cc56b1-3a0b-4063-bf91-eff4d82cc425",
+"image_name": "frame1876_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "0c2b8813-ea7f-47c0-967b-c222e8a81182",
+"image_name": "frame1876_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "58f1002a-e7cc-45bc-8b37-99a022976333",
+"image_name": "frame1876_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "e75ab7fa-fa05-4d98-9481-5de497b4a40a",
+"image_name": "frame1876_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "542d71f0-6b8d-436b-aa69-3bd24fd10cb8",
+"image_name": "frame1876_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "1a4a3670-e3c1-451e-b695-96d15ba58def",
+"image_name": "frame1876_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "7fe54f2e-b715-406b-821d-1339fe0ff9eb",
+"image_name": "frame1876_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "47a13ec0-b188-4aa5-8dfc-9585a6070f8d",
+"image_name": "frame1876_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "cae638cd-6bc4-4f7f-8330-77acca96405c",
+"image_name": "frame1876_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "36929b9b-31c9-49ed-8482-87703e377270",
+"image_name": "frame1876_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "8ab1ff92-132c-49bb-a255-2494fbdd5824",
+"image_name": "frame1876_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "d5498422-ee1b-4791-bf34-b56c3659b4a8",
+"image_name": "frame1876_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "13ce45a8-7927-4adf-acd9-67674bf5bd1d",
+"image_name": "frame1876_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "73a4a4cb-1f54-4395-b9e7-83fad599947a",
+"image_name": "frame1876_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "85b05643-ebf9-4f73-a32f-0958768b3adc",
+"image_name": "frame1876_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "2d0235e1-592e-4512-8a89-94b67c46622e",
+"image_name": "frame1876_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "bbfd5e98-4224-4f83-adf1-abfe2517ae5c",
+"image_name": "frame1876_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "97cc5558-b31a-4983-822e-caf033ca6d8c",
+"image_name": "frame1876_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "655d0a74-db35-417d-85c5-ee6fd677d051",
+"image_name": "frame1876_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "a4b93c1d-6c52-4718-b5d9-c3343015866f",
+"image_name": "frame1876_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "a1195143-a65b-4335-8c9e-a8fc00e59be9",
+"image_name": "frame1876_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "cc6b61af-4cc7-4e6e-9ebf-a81a52c63919",
+"image_name": "frame1876_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "d249776d-42eb-4a47-91fa-a39c721e3fe1",
+"image_name": "frame1876_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "01ef3135-6638-4ade-9a91-44e1c21a7573",
+"image_name": "frame1876_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "d4efe221-6682-4a70-a6d1-7c3e1693eb1b",
+"image_name": "frame1876_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "882724bc-ddac-4960-9d2b-83c7f0c41636",
+"image_name": "frame1876_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "6732e644-77ef-4027-8128-55ced476e477",
+"image_name": "frame1876_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "503815de-c102-42ee-b38b-fa49936a13a7",
+"image_name": "frame1876_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "cd6d974a-7ca2-45a2-a0ab-53020cadccc3",
+"image_name": "frame1946_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "601ef1f3-4898-487e-b2c4-50e4f248d663",
+"image_name": "frame1946_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "53693298-2c87-448b-b129-d066108aac98",
+"image_name": "frame1946_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "cf7cb996-e8ee-4288-9813-5ca912a0d07c",
+"image_name": "frame1946_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "2d2fef87-d1db-4b22-827f-1f85b28ea1bb",
+"image_name": "frame1946_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "620307ec-2327-4fff-9400-a74a55979f16",
+"image_name": "frame1946_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "9e1f28db-2f9f-4778-95cf-6746edb81ffb",
+"image_name": "frame1946_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "a9538f0a-403a-4378-afbc-a21fc1a012f5",
+"image_name": "frame1946_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "99a5fce4-2ad3-4f62-aaa4-480b83c52141",
+"image_name": "frame1946_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "69119231-3089-431c-bd0c-f4519cac0635",
+"image_name": "frame1946_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "d38c1513-a70b-49f9-be5c-5c55d2ee53da",
+"image_name": "frame1946_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "87a4acdd-f4d2-4cee-8dcb-1c344458d313",
+"image_name": "frame1946_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1fe22fee-d171-49a1-852a-70f44d3cae2c",
+"image_name": "frame1946_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "4bcf5031-eae1-44ed-a801-1a0dd2eb8ca6",
+"image_name": "frame1946_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 26,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "1237bf13-afb2-4050-8edf-2af53a972b8f",
+"image_name": "frame1946_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "5fa726e3-9623-4751-9fe9-6016a637da0b",
+"image_name": "frame1946_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "2c767751-30fd-46b9-bb80-51f7484da0da",
+"image_name": "frame1946_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "71bf709b-ef18-4e96-9927-0111a6edeaa1",
+"image_name": "frame1946_PAP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "b1bbd482-acee-46f8-8139-8a0ca77f6ed1",
+"image_name": "frame1946_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "f084d7e9-00b8-4683-9be1-1491ba68d599",
+"image_name": "frame1946_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "cf7b6cde-064c-4efe-b93e-3a1c1ecadc1e",
+"image_name": "frame1946_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "2c40a1b2-a1b3-43f9-9a5d-57ac1a2c9267",
+"image_name": "frame1946_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "b97884e0-8660-4b51-b7f8-2bd92691aad7",
+"image_name": "frame1946_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "aa7ab7d1-4053-46b1-8253-430044556364",
+"image_name": "frame1946_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "53060569-f56d-4d58-b65b-482ca684679e",
+"image_name": "frame1946_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "0d485bfc-c99e-4c6d-8395-f45c6e1f3196",
+"image_name": "frame1946_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "87c52220-d580-468f-b51d-a5e884c8c319",
+"image_name": "frame1946_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "f210c2cf-29cf-437b-98e4-14254bb1a5c9",
+"image_name": "frame1946_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "29ac66a9-f686-4291-b8bc-907b41d3d61f",
+"image_name": "frame1946_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "5b30e4cb-a377-45b1-802e-eb682dd79df0",
+"image_name": "frame1946_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "4b905137-ca6c-416f-9202-3859ebb9eabb",
+"image_name": "frame1946_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "d3cbd798-3f0f-4ab6-ae27-35080b3cdcbc",
+"image_name": "frame1946_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "1473d773-5dc5-49ef-8b7f-c98c0977381f",
+"image_name": "frame2002_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "ff3e1799-40c7-4373-9c65-5856ec67446a",
+"image_name": "frame2002_ABP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "165ad02c-a80a-4e94-bd76-9aea85f7868a",
+"image_name": "frame2002_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "53e82810-5604-4505-a55e-e85e69c5d1dc",
+"image_name": "frame2002_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "be79fd25-b140-4cc6-afa2-368fd8da0fc3",
+"image_name": "frame2002_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "ca83300c-76f7-43cc-92e3-8f5bc8cf6ae7",
+"image_name": "frame2002_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "bf7f3cb9-e2e3-4fac-8677-68834a29efc4",
+"image_name": "frame2002_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "e5f2a57f-71b1-4639-b4f7-91280557c011",
+"image_name": "frame2002_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "b67c27d2-e56b-4063-a0c8-be6a18a50bbf",
+"image_name": "frame2002_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "b8323039-05d7-4580-b514-900cf90d104e",
+"image_name": "frame2002_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "6b745405-db04-4a1d-8880-c61aedcfa809",
+"image_name": "frame2002_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "62154cf9-7d7e-4dcf-afba-4a11ddcc8375",
+"image_name": "frame2002_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "91dad4f3-f841-4f36-a202-fde0c6ad66ed",
+"image_name": "frame2002_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1070c449-8f92-4f9c-8fe9-391da6e56f13",
+"image_name": "frame2002_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 26,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "431715e0-e69a-4376-a7d9-13108c2d5116",
+"image_name": "frame2002_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "ee05d22b-9546-4c66-a832-c7ba64f52da7",
+"image_name": "frame2002_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "00d324fc-1b7a-4b31-84bc-060b823c210b",
+"image_name": "frame2002_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "dca66ab3-7d55-4bcd-b94f-782c09c6473d",
+"image_name": "frame2002_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "ca40ad3a-e208-4237-b8c3-1bb7a6fa6ba2",
+"image_name": "frame2002_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "df7dc422-88ef-4bd3-9a47-225a7f522f42",
+"image_name": "frame2002_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "43938c1c-9159-4053-bac0-4902f5ac8904",
+"image_name": "frame2002_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 21,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "8e5d835f-dfe6-4eda-b060-7f9773c48c7c",
+"image_name": "frame2002_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "6a256449-1212-419b-967c-8cb23614b7f7",
+"image_name": "frame2002_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "11d49588-3b4b-478a-9106-9a1480fc236b",
+"image_name": "frame2002_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "7485ba25-466c-4c15-805b-c2c5f2e24ddb",
+"image_name": "frame2002_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "f29f85e8-9bcf-425c-aeab-bf09d00f1fff",
+"image_name": "frame2002_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "9527e747-d4aa-42c7-a94b-37fdea6e8e65",
+"image_name": "frame2002_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "787dec9b-c72c-4367-92a9-a93f12bd7e1b",
+"image_name": "frame2002_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "e1179f4b-4b3b-42ea-8f2f-68098a691495",
+"image_name": "frame2002_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "fb272e36-49c0-41b7-aa10-c753f5926721",
+"image_name": "frame2002_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "b6b1e7fd-212f-414c-9703-1b441a3a6510",
+"image_name": "frame2002_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "b7d6c986-bd78-4fa7-9fdb-99226773686b",
+"image_name": "frame2002_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "45864cc4-d7ba-4f7f-813e-7f60d0f58a18",
+"image_name": "frame2072_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "f23fdac9-40d7-4c7d-89ba-962af014fd3b",
+"image_name": "frame2072_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "743cc66e-c054-44df-a4f5-6e20308ce372",
+"image_name": "frame2072_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "377258c9-6f20-4298-9a5b-c36c1d04769c",
+"image_name": "frame2072_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "93e54b7a-b552-4785-bdd1-a768c2b474bd",
+"image_name": "frame2072_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "72727b70-9ade-4f69-8131-fd6a7f26f907",
+"image_name": "frame2072_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "ac84c0be-52c5-4a11-a32a-d2cc4cd846e2",
+"image_name": "frame2072_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "7bea558d-b92e-4039-a6bf-cd8954904373",
+"image_name": "frame2072_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "9512934b-1cdf-4a52-8f5d-50dfbec83e7f",
+"image_name": "frame2072_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "b878404b-023d-45fa-912b-666f805a8b61",
+"image_name": "frame2072_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "f58aba7c-e3ad-42fc-86b9-429572c626d6",
+"image_name": "frame2072_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "915716ea-f0ce-4c33-979e-1ed72e68d894",
+"image_name": "frame2072_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "c9a32a55-84c5-4f9c-980d-7907a3886319",
+"image_name": "frame2072_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 27,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "61deb24a-55ee-40a5-9359-4007d51ee8f1",
+"image_name": "frame2072_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "9b16ce98-589f-4da5-8ebb-c0bd6ec2b15a",
+"image_name": "frame2072_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "791b67b4-e558-4b30-a31f-daba82069f73",
+"image_name": "frame2072_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "90b8fa20-2062-43f0-b009-8ad407970e89",
+"image_name": "frame2072_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "6073498c-436e-4984-a071-d47654e1ecad",
+"image_name": "frame2072_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "431bce9d-c852-4d61-8897-b3378e9742a0",
+"image_name": "frame2072_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "0f86d2a6-a534-4faf-9489-444100cb5558",
+"image_name": "frame2072_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 21,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "54d809c0-6b37-4922-ad6b-68646b593251",
+"image_name": "frame2072_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "24ee7e06-9027-4228-acb6-6bb556c3e5bb",
+"image_name": "frame2072_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "4d8e3498-1c55-4edf-8d9b-27cbb50c2d5b",
+"image_name": "frame2072_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "c1f43991-7f9f-4d38-befc-4dc7cc18cecc",
+"image_name": "frame2072_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "57ce5be3-db65-4e1d-854f-2209e7223d84",
+"image_name": "frame2072_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "13042b65-9855-4e42-bb2f-d03206ee5644",
+"image_name": "frame2072_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "633f033f-e836-4d15-a702-e059a88ab7b4",
+"image_name": "frame2072_PAP_4.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "938857b0-3c5b-4088-a972-438d666f0e3d",
+"image_name": "frame2072_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "b29a1ac7-a400-494c-9310-e0ded378bf5d",
+"image_name": "frame2072_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "0181c34b-f137-4db4-a7a6-04494d958f0c",
+"image_name": "frame2072_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "eea2dccc-94d5-4ccc-999b-835471dbb353",
+"image_name": "frame2072_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "eb2e4fca-8e94-4788-ae7f-a27a625a4057",
+"image_name": "frame2128_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "6f43243b-67b7-405a-844e-2c1b58f3851a",
+"image_name": "frame2128_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"6"
+],
+"labels": []
+}, {
+"image_id": "f53ea425-e516-4cdc-8e69-3a443cf1f4e1",
+"image_name": "frame2128_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "c229a228-a930-4179-b87f-7f8876bc38a8",
+"image_name": "frame2128_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "69309888-1a5c-4f14-a1fb-62cdc97e2ef1",
+"image_name": "frame2128_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "87822327-3927-4e42-a42b-c49914f057b7",
+"image_name": "frame2128_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "3a9300db-fa22-439e-824a-b9ce1f95d80d",
+"image_name": "frame2128_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "0579c643-bace-418d-8a45-b3da20cbfa74",
+"image_name": "frame2128_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "196ede4b-f70b-4eee-b407-74e61087b24e",
+"image_name": "frame2128_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "4bf86b24-c6a5-443e-bef2-ff022dad989a",
+"image_name": "frame2128_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "cc9ea083-3e14-46cd-bfb2-a88a4ff9b647",
+"image_name": "frame2128_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "6afaf5c6-f94d-4f82-9061-9f3c286b9fda",
+"image_name": "frame2128_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "4b096002-2d9b-4d18-895c-e16dc8e47192",
+"image_name": "frame2128_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 27,
+"height": 34,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "8c35f2bc-4824-4e28-b4a3-e43c2e96d475",
+"image_name": "frame2128_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "8b08a98f-dac9-48ed-8eba-d970c299ff63",
+"image_name": "frame2128_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "21f2b261-7543-4e9b-b210-74409778f4f2",
+"image_name": "frame2128_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "e428c8fb-541a-4b62-996f-6e398daf57cc",
+"image_name": "frame2128_PAP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "1fd733d7-1cf3-4da8-b335-6d3005c82e3a",
+"image_name": "frame2128_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "11e03e85-b5f0-447c-be68-556d44635e97",
+"image_name": "frame2128_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "0791e4f2-4534-4760-ab97-031ff205361c",
+"image_name": "frame2128_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 21,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"4"
+],
+"labels": []
+}, {
+"image_id": "2c37a846-c410-4bdd-aba0-3c202d43c374",
+"image_name": "frame2128_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "6f90d327-ed51-4ef4-845b-46e2741e089a",
+"image_name": "frame2128_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "95cb8787-75c4-4e85-a7fd-74933ba4df22",
+"image_name": "frame2128_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "eb2c61d4-9e29-430d-bfbe-d41bc9ea8df0",
+"image_name": "frame2128_PAP_1.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "14163cb5-d20e-427d-9340-5e3302e1f111",
+"image_name": "frame2128_PAP_2.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "a6dee6d6-fe78-462e-885c-121287d45de6",
+"image_name": "frame2128_PAP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "52cb088f-5a97-4d3b-9029-4f56324f7d38",
+"image_name": "frame2128_PAP_9.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "5feb3341-6d71-41f9-9b6d-2e28610d1796",
+"image_name": "frame2128_Pulse_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "498f6773-5fde-4fdf-969c-ec8a3d5288da",
+"image_name": "frame2128_Pulse_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "78895cec-f248-4553-9a7f-48262732f9a7",
+"image_name": "frame2128_SpO2_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"7"
+],
+"labels": []
+}, {
+"image_id": "b5349dca-d603-4e1b-b64b-b352b6ee3489",
+"image_name": "frame2128_SpO2_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 40,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "1683e039-2b4a-4bf9-875c-23245d90514e",
+"image_name": "frame2198_ABP_0.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+")"
+],
+"labels": []
+}, {
+"image_id": "61f0850a-cd7a-4e0d-9fc9-6723f81477ac",
+"image_name": "frame2198_ABP_1.jpg",
+"dataset_name": "Default",
+"width": 18,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "e256ad39-b3a6-47c4-b1aa-7b166813a992",
+"image_name": "frame2198_ABP_2.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 23,
+"image_status": "IN PROGRESS",
+"tags": [
+"9"
+],
+"labels": []
+}, {
+"image_id": "d3a402ae-c2c0-4b79-92a6-ad69d1fadc24",
+"image_name": "frame2198_ABP_3.jpg",
+"dataset_name": "Default",
+"width": 14,
+"height": 26,
+"image_status": "IN PROGRESS",
+"tags": [
+"("
+],
+"labels": []
+}, {
+"image_id": "7b5801b6-cb85-4b8d-879a-524d26952685",
+"image_name": "frame2198_ABP_4.jpg",
+"dataset_name": "Default",
+"width": 16,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "3c8d72ee-0c5d-49e1-b544-f0c2165895c2",
+"image_name": "frame2198_ABP_5.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "fc2bf0f1-6cb0-4179-b5d6-69b2758adabe",
+"image_name": "frame2198_ABP_6.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "85c11fe7-850b-4dd6-a21d-e1dc363dfd5d",
+"image_name": "frame2198_ABP_7.jpg",
+"dataset_name": "Default",
+"width": 19,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "ef3807af-726a-4287-92ad-69093d5616c3",
+"image_name": "frame2198_ABP_8.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "89b58a9c-f636-4aef-8531-1515a79b96e1",
+"image_name": "frame2198_ABP_9.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "96f45465-74cb-46a4-ae9b-7f06a0a48bed",
+"image_name": "frame2198_awRR_0.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "1f14f151-b93a-4512-9fb4-bfef22c17ef9",
+"image_name": "frame2198_awRR_1.jpg",
+"dataset_name": "Default",
+"width": 23,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "c11dc247-09ab-409f-9e2f-ae3faf84cd7d",
+"image_name": "frame2198_etCO2_0.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "fa18f08b-b21c-496d-928c-5c22e953e70a",
+"image_name": "frame2198_etCO2_1.jpg",
+"dataset_name": "Default",
+"width": 25,
+"height": 35,
+"image_status": "IN PROGRESS",
+"tags": [
+"3"
+],
+"labels": []
+}, {
+"image_id": "da53ef32-5232-4db2-83b7-e3ff657e9ea8",
+"image_name": "frame2198_Heart rate_0.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "c7e36969-804d-4809-8fc0-2eb0ee876ae0",
+"image_name": "frame2198_Heart rate_1.jpg",
+"dataset_name": "Default",
+"width": 30,
+"height": 41,
+"image_status": "IN PROGRESS",
+"tags": [
+"8"
+],
+"labels": []
+}, {
+"image_id": "ac4f352c-d98a-45a1-90c7-f8f8d1b03c84",
+"image_name": "frame2198_PAP_10.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"0"
+],
+"labels": []
+}, {
+"image_id": "3ff93294-c68d-4c42-bc53-5e5ea16838ad",
+"image_name": "frame2198_PAP_11.jpg",
+"dataset_name": "Default",
+"width": 17,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"1"
+],
+"labels": []
+}, {
+"image_id": "94b46bf6-2696-4b01-94a6-4888e79e07f8",
+"image_name": "frame2198_PAP_12.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"/"
+],
+"labels": []
+}, {
+"image_id": "41499660-d085-41ab-875b-d61aa3c300b3",
+"image_name": "frame2198_PAP_13.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"5"
+],
+"labels": []
+}, {
+"image_id": "a256d9fe-28f6-4192-a058-8ce0851f21d6",
+"image_name": "frame2198_PAP_14.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 25,
+"image_status": "IN PROGRESS",
+"tags": [
+"2"
+],
+"labels": []
+}, {
+"image_id": "f376d296-6861-4bad-a66e-585a8e1c7347",
+"image_name": "frame2198_PAP_15.jpg",
+"dataset_name": "Default",
+"width": 15,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}, {
+"image_id": "e63a0f5d-dd01-4016-8e89-c88c5e3c8b7b",
+"image_name": "frame2198_PAP_16.jpg",
+"dataset_name": "Default",
+"width": 20,
+"height": 17,
+"image_status": "IN PROGRESS",
+"tags": [
+"junk"
+],
+"labels": []
+}], "attributes": []}
